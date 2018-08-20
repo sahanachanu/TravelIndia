@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<title> hello </title>
+<script type="text/javascript">
+function substitute (){
+var myValue = document.getElementById('my text box').value;
+if(myValue.length == 0){
+   alert('Please enter a real value');
+   return;
+}
+var myTitle = document.getElementById('title');
+myTitle.innerHTML = myValue;
+
+}
+</script>
+</head>
+<body>
+<h1 id = "title"> example </h1>
+<input type="text" id = "my text box" />
+<input type ="submit" value = "Click me" onClick = "substitute()" />
+</body>
+</html>
