@@ -2,8 +2,8 @@
 body, html{
 	margin: 0;
 	padding: 0;
-	widht: 100%;
 	height: 100%;
+	font-family:'Source Sans Pro', sans-serif;
 	}
 .TitleDiv
 {
@@ -44,6 +44,12 @@ body, html{
 	text-align: center;
 	height: 83px;	
 	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
 }
 .caption{
 	font-style:italic;
@@ -108,7 +114,7 @@ title
 
 .row1
 {
-	margin:10px;
+	width:100%;
 }
 .row2
 {
@@ -125,12 +131,12 @@ title
 	
 }
 
-.BigImage:hover{	
+/*.BigImage:hover{	
 	transform: scale(1.1);
 }
 .rowImage:hover{
 	transform: scale(1.05);
-}
+}*/
 
 
 .delhi-info
@@ -146,23 +152,19 @@ title
 }
 ul {
     list-style-type: none;
-    margin: 5px;
-    padding: 0;
-    overflow: hidden;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
 }
 
 li {
     float: left;
+	width: 426px;
+	margin: -11px;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 181px;
+    padding: 10px 184px;
     text-decoration: none;
 }
 
@@ -177,17 +179,19 @@ li a:hover {
 .imageVertical
 {
 	height: 200px;
-	width: 345px;
+	width: 33%;
 	display: inline-block;
-	margin:10px 0 0 45px;
+	margin: 25px 10px 0 45px;
 }
 .imageData
 {
-	width: 60%;
+	width: 50%;
 	height: 175px;
 	display: inline-block;
-	font-size:24px;
-	text-align:justify;
+	font-size: 18px;
+	text-align: justify;
+	margin: 10px 10px 10px 40px;
+	vertical-align:top;
 }
 .transportName
 {
@@ -204,33 +208,24 @@ li a:hover {
 	margin: 20px;
 	height: 23px;
 }
-.transportInfo
-{
-	font-size:30px;
-	font-weight:bold;
-	margin:0 0 0 40px;
-}
+
 .imageBlock1
 {
-		height:270px;
+		height:40%;
+		margin-top:35px;
 }
-.climateInfo
-{
-	font-size:30px;
-	font-weight:bold;
-	margin:30px 0 0 60px;
-}
+
 .imageSun
 {
-		width: 300px;
+		width: 320px;
 		margin: 10px 0 0px 65px;
 }
 .summer
 {
-	font-size: 21px;
+	font-size: 25px;
 	display: inline-block;
-	width: 45%;
-	margin: 0px 0px 0px 59px;
+	width: 40%;
+	margin: 70px 0px 0px 61px;
 }
 .ReservationImage
 {
@@ -243,8 +238,7 @@ li a:hover {
 .link
 {
 		text-align: center;
-		margin: 10px 0 0 0;
-		font-size: 25px;
+		color:white;
 }
 
 h1
@@ -259,7 +253,7 @@ a
 
 .Container{
 	width:100%;
-	height:77%;
+	height:81%;
 	background-image:url(images/Wallpaper4.jpg);
 }
 
@@ -270,29 +264,167 @@ a
 }
 .LeftContainer
 {
-	width: 26%;
 	border: 2px solid white;
-	margin: 40px 40px 40px 20px;
-	height:88%;
-	display:inline-block;
+	margin-top:14px;
+	width: 25%;
+	height: 455px;
+	display: inline-block;
+	vertical-align:top;
+	position:relative;
 }
 
 .RightContainer
 {
-	width: 67%;
 	border: 2px solid white;
-	margin-left: -28px;
-	height: 85%;
+	width: 74%;
+	height: 455px;
 	display: inline-block;
-	padding: 15px 15px 0px 20px;
+	position:relative;
+	vertical-align:top;
+	margin-top:14px;
 }
 
-.CityTitleDiv
+.TreeMenu
 {
-	-moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
-   background-image:url(images/Wallpaper4.jpg);
+	width: 300px;
+	height: 300px;
 	color:white;
-	height:60px;
 }
+
+.MaxMinIconChild
+{
+	width:20px;
+	margin:10px 10px 0px 10px;
+}
+
+.ChildElements
+{
+	display: block;
+	margin: 10px 10px 10px 0px;
+	width: 100%;
+	text-align:center;
+}
+.ListItems{
+	font-size:26px;
+	font-weight:bold;
+}
+
+.ListDiv
+{
+	font-size: 20px;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0px 40px 0px #3448A2;
+	width: 316px;
+	cursor:pointer;
+}
+
+p:hover{
+	background-color: #DB7063;
+}
+
+#TransportDashboard
+{
+	height: 100%;
+	overflow-y: scroll;
+	color: white;
+}
+
+#ClimateDashboard
+{
+	height: 100%;
+	color: white;
+}
+.transport-title
+{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;
+}
+
+.NavBar
+{
+	width: 100%;
+	height: 7%;
+	margin: 10px 10px -10px -5px;
+}
+
+.mySlides
+{
+	width: 100%;
+	height: 443px;
+	margin: 23px 23px 23px 23px;
+}
+
+.ArrowKeys
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+	height: 100px;
+	margin: 194px 100px 100px 120px;
+}
+
+.arrow-buttons {
+	width: 47%;
+	height: 100px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: white;
+	background-color: #3448A2;
+	border: 3px solid white;
+	border-radius: 18px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	}
+  
+  .arrow-buttons:hover {
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #3448A2;
+	transform: translateY(-7px);
+  }
+
+  .delhiPic
+  {
+	  width:300px;
+	  height:300px;
+	  margin:39px;
+	  
+  }
+
+	  .ImageClick
+	  {
+		-moz-box-shadow:    inset 0 0 10px white;
+   		-webkit-box-shadow: inset 0 0 10px white;
+   		box-shadow:         inset 0 0 112px white;
+	  }
+  	.delhiPic:hover{
+		transform: scale(1.05);
+	  }
+  .DelhiContain
+  {
+	  width:30%;
+	  height:70%;
+	  cursor:pointer;
+	  
+   margin: 10px 10px 10px 22px;
+   display:inline-block;
+
+  }
+
+  .ImageTitle
+  {
+	font-size: 44px;
+	font-weight: bold;
+	height: 10px;	
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	margin:40px;
+	text-align:center;
+  }
