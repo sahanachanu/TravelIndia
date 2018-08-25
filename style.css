@@ -193,7 +193,7 @@ li a:hover {
 	margin: 10px 10px 10px 40px;
 	vertical-align:top;
 }
-.transportName
+.SubTitleName
 {
 	font-size:27px;
 	font-weight:bold;
@@ -323,6 +323,12 @@ p:hover{
 	background-color: #DB7063;
 }
 
+#PlacesDashBoard
+{
+	height: 100%;
+	overflow-y: scroll;
+	color: white;
+}
 #TransportDashboard
 {
 	height: 100%;
@@ -335,7 +341,7 @@ p:hover{
 	height: 100%;
 	color: white;
 }
-.transport-title
+.Info-title
 {
 	font-size: 30px;
 	font-weight: bold;
@@ -427,4 +433,38 @@ p:hover{
 	color:white;
 	margin:40px;
 	text-align:center;
+  }
+
+  .imageVerticalPlace1
+  {
+	  display:inline-block;
+	  margin:21px;
+  } 
+
+  .imageVerticalPlace2
+  {
+	  display:inline-block;
+	  margin:21px;
+  } 
+
+  .ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	width: 450px;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+  }
+
+  .listElementPlace
+  {
+	font-size: 20px;
+	width: 90%;
+	margin: 30px;
+	text-align: justify;
   }
