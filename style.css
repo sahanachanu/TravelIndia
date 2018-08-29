@@ -4,6 +4,7 @@ body, html{
 	padding: 0;
 	height: 100%;
 	font-family:'Source Sans Pro', sans-serif;
+	overflow-x:hidden;
 	}
 .TitleDiv
 {
@@ -12,11 +13,11 @@ body, html{
    box-shadow:         inset 0 0 10px #000000;
    background-image:url(images/Wallpaper4.jpg);
 	color:white;
-
+	width:100%;
 }
 .HomeImg
 {
-	height:453px;
+	height:77%;
 	background-image:url(images/indiaCulture.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -35,6 +36,7 @@ body, html{
 	display: flex;  
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
+	width:100%;
 }	
 
 .header
@@ -53,7 +55,7 @@ body, html{
 }
 .caption{
 	font-style:italic;
-	margin:-20px 0 0 0;
+	margin:-11px 0 0 0;
 	text-align:center;
 	font-size:22px;
 }
@@ -65,15 +67,17 @@ body, html{
 	text-align: center;
 }
 .cityName{
-	font-size:35px;
-	font-weight:bold;
-	margin:30px 30px 30px 50px;
+	font-size: 48px;
+	font-weight: bold;
+	margin: 30px 30px 30px 50px;
+	width: 300px;
+	display: inline-block;
 }
 
 .PlanTrip
 {		
 	background: #DB7063;
-	width: 165px;
+	width: 100%;
 	height: 30px;
 	font-size: 21px;
 	border-bottom-right-radius: 40px;
@@ -91,9 +95,10 @@ title
 .city-description
 {
 	font-size: 25px;
-	width: 85%;
+	width: 88%;
 	margin: 0px 0px 0px 50px;
 	overflow-wrap: break-word;
+	text-align:justify;
 }
 
 .BigImageDiv
@@ -112,14 +117,8 @@ title
 	padding: 27px 10px 10px 10px;
 }
 
-.row1
-{
-	width:100%;
-}
-.row2
-{
-	margin:10px;
-}
+
+
 .BigImage{
 	width:100%;
 	height:100%;
@@ -127,16 +126,6 @@ title
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 5px 3px 10px #000000;
 }
-.imageList{
-	
-}
-
-/*.BigImage:hover{	
-	transform: scale(1.1);
-}
-.rowImage:hover{
-	transform: scale(1.05);
-}*/
 
 
 .delhi-info
@@ -150,26 +139,37 @@ title
 {
 	margin: 0 0 0 338px;
 }
+
+.NavBar
+{
+	width: 100%;
+	height: 7%;
+	margin: 10px 10px -24px -3px;
+}
+
 ul {
-    list-style-type: none;
+	list-style-type: none;
+	width:100%;
 }
 
 li {
     float: left;
-	width: 426px;
-	margin: -11px;
+	width: 34%;
+	margin: -11px -11px -11px -17px;
+	height:57px;
 }
+
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 184px;
+    padding: 10px 180px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #DB7063;
+	background-color: #DB7063;
 }
 
 .active {
@@ -253,7 +253,6 @@ a
 
 .Container{
 	width:100%;
-	height:81%;
 	background-image:url(images/Wallpaper4.jpg);
 }
 
@@ -336,6 +335,18 @@ p:hover{
 	color: white;
 }
 
+#FlightDashboard
+{
+	height: 100%;
+	color: white;
+}
+
+#HotelDashboard
+{
+	height: 100%;
+	color: white;
+}
+
 #ClimateDashboard
 {
 	height: 100%;
@@ -349,12 +360,7 @@ p:hover{
 	margin: 10px;
 }
 
-.NavBar
-{
-	width: 100%;
-	height: 7%;
-	margin: 10px 10px -10px -5px;
-}
+
 
 .mySlides
 {
@@ -451,7 +457,7 @@ p:hover{
   {
 	border: 2px solid white;
 	background-color: #1ea295;
-	width: 450px;
+	/*width: 450px;*/
 	height: 45px;
 	display: block;
 	margin: 20px;
@@ -464,7 +470,927 @@ p:hover{
   .listElementPlace
   {
 	font-size: 20px;
-	width: 90%;
+	/*width: 90%;*/
 	margin: 30px;
 	text-align: justify;
   }
+
+  .active
+  {
+	background-color: #DB7063;
+  }
+
+  tab1
+  {
+	  padding-left:4em;
+  }
+
+.BtnContainer
+{
+	width: 300px;
+	margin: 0px 10px 0px -70px;
+	display: inline-block;
+}
+.imageFlight{
+	margin-top:40px;
+}
+.FlightInfo
+{
+	font-size: 18px;
+	margin-left: 91px;
+	width: 80%;
+	text-align: center;
+}
+
+.content{
+	width: 100%;
+	margin: 10px;
+}
+
+.rowImage{
+	width:215px;
+	height:200px;
+}
+
+  @media (min-width:280px) and (max-width:400px)
+  {
+	
+	.header
+	{
+		font-size: 32px;
+	}
+	.caption{
+		font-style:italic;
+		margin:-36px 0 0 0;
+		text-align:center;
+		font-size:15px;
+	}
+	
+
+	.NavBar
+	{
+		width: 100%;
+		height: 23%;
+		margin: 10px 10px -88px -182px;
+	}
+
+	li {
+		width: 100%;
+		margin: -11px;
+		height:55px;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 152px;
+	text-decoration: none;
+	width:100%;
+	}
+	.PlanTrip
+	{		
+		width:100%;
+		margin: -15px 30px 30px 124px;
+	}
+
+	.city-description
+	{
+		font-size: 18px;
+		margin: 0px 0px 0px 24px;
+		text-align: justify;
+	}
+
+	.BigImageDiv
+	{
+		width:40%;
+		margin:0px 10px 10px 23px;
+		
+	}
+	.BigImage
+	{
+		width:215%;
+		height:270px;
+	}
+
+	.MultiImageDiv
+	{
+		margin:-188px 10px 10px 25px;
+	}
+	.rowImage{
+		width:100%;
+		height:194px;
+	}
+	
+	.cityName
+	{
+		margin:16px;
+		text-align:center;
+	}
+
+	.BtnContainer
+	{
+		width:187px;
+	}
+
+	.content{
+		margin-left:-8px;
+	}
+
+	/*Delhi Page css media query*/
+	.Container{
+		width:100%;
+		background-image: url(images/Wallpaper4.jpg);
+	}
+
+	.LeftContainer
+	{
+		border: 2px solid white;
+		margin-top: 14px;
+		width: 100%;
+		height: 245px;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
+
+	.TreeMenu
+	{
+		width: 100%;
+		height: 248px;
+		color: white;
+	}
+
+	.ListDiv
+	{
+		font-size: 16px;
+		-moz-box-shadow: inset 0 0 10px #000000;
+		-webkit-box-shadow: inset 0 0 10px #000000;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.ListItems
+	{
+		font-size: 20px;
+		font-weight: bold;
+		height: 26px;
+		text-align: center;
+		background-color:#3448A2;
+	}
+	.RightContainer
+	{
+		border: 2px solid white;
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		margin-top: 14px;
+		overflow-x: hidden;
+	}
+
+	.Info-title
+	{
+		font-size:26px;
+	}
+	.imageBlackPlace
+	{
+		margin-top:-20px;
+	}
+
+	.imageVerticalPlace1
+	{
+		width:90%;
+	}
+	.imageVerticalPlace2
+	{
+		width:90%;
+	}
+	.PlaceImage
+	{
+		width:100%;
+		height:195px;
+		margin-top:-20px;
+	}
+
+	.ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+  }
+
+  .listElementPlace
+  {
+	font-size: 16px;
+	margin: 30px;
+	text-align: justify;
+  }
+  }
+
+  @media (min-width:401px) and (max-width:600px)
+  {
+	.header
+	{
+		font-size: 35px;
+	}
+	.caption{
+		font-style:italic;
+		margin:-30px 0 0 0;
+		text-align:center;
+		font-size:18px;
+	}
+
+	.NavBar
+	{
+		width: 100%;
+		height: 26%;
+		margin: 10px 10px -95px -210px;
+	}
+
+	li {
+		width: 100%;
+		margin: -11px;
+		height:55px;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 182px;
+	text-decoration: none;
+	width:100%;
+	}
+
+	.PlanTrip
+	{		
+		width:100%;
+	}
+
+	.city-description
+	{
+		font-size: 18px;
+		width: 100%;
+		margin: 0px 0px 0px 5px;
+		overflow-wrap: break-word;
+		text-align: justify;
+	}
+
+	.BigImageDiv
+	{
+		width:85%;
+		margin:0px 10px 10px 37px;
+		
+	}
+	.BigImage
+	{
+		width:94%;
+		height:300px;
+	}
+
+	.MultiImageDiv
+	{
+		margin:-157px 10px 10px 44px;
+		display:inline-block;
+		width:86%;
+	}
+	.rowImage{
+		width:45%;
+		height:194px;
+	}
+	.row2
+	{
+		margin:0px;
+	}
+
+	.row1{
+		width:100%;
+		display:inline-block;
+	}
+
+	.cityName
+	{
+		text-align: center;
+		margin: 0px;
+		font-size: 45px;
+	}
+
+	.BtnContainer
+	{
+		width: 300px;
+		margin: 0px 10px 0px 45px;
+	}
+
+	.imageList{
+		width:100%;
+	}
+
+	.content
+	{
+		width:93%;
+	}
+
+	ul {
+		list-style-type: none;
+		width:100%;
+	}
+	
+
+	/*Delhi Page css media query*/
+	.Container{
+		width:100%;
+		background-image: url(images/Wallpaper4.jpg);
+	}
+
+	.LeftContainer
+	{
+		border: 2px solid white;
+		margin-top: 14px;
+		width: 100%;
+		height: 245px;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
+
+	.TreeMenu
+	{
+		width: 100%;
+		height: 248px;
+		color: white;
+	}
+
+	.ListDiv
+	{
+		font-size: 16px;
+		-moz-box-shadow: inset 0 0 10px #000000;
+		-webkit-box-shadow: inset 0 0 10px #000000;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.ListItems
+	{
+		font-size: 20px;
+		font-weight: bold;
+		height: 26px;
+		text-align: center;
+		background-color:#3448A2;
+	}
+	.RightContainer
+	{
+		border: 2px solid white;
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		margin-top: 14px;
+		overflow-x: hidden;
+	}
+
+	.Info-title
+	{
+		font-size:26px;
+	}
+	.imageBlackPlace
+	{
+		margin-top:-20px;
+	}
+
+	.imageVerticalPlace1
+	{
+		width:90%;
+	}
+	.imageVerticalPlace2
+	{
+		width:90%;
+	}
+	.PlaceImage
+	{
+		width:100%;
+		height:200px;
+		margin-top:-20px;
+	}
+
+	.ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+  }
+
+  .listElementPlace
+  {
+	font-size: 16px;
+	margin: 30px;
+	text-align: justify;
+  }
+  }
+
+  @media only screen 
+and (min-device-width : 601px) 
+and (max-device-width : 800px) {
+	.header
+	{
+		font-size: 40px;
+	}
+	.caption{
+		font-style:italic;
+		margin:-30px 0 0 0;
+		text-align:center;
+		font-size:18px;
+	}
+
+	.NavBar
+	{
+		width: 100%;
+		height: 26%;
+		margin: 10px 10px -95px -210px;
+	}
+
+	li {
+		width: 100%;
+		margin: -11px;
+		height:55px;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 182px;
+	text-decoration: none;
+	width:100%;
+	}
+
+	.PlanTrip
+	{		
+		width:100%;
+	}
+
+	.city-description
+	{
+		font-size: 18px;
+		width: 100%;
+		margin: 0px 0px 0px 11px;
+		overflow-wrap: break-word;
+		text-align: justify;
+	}
+
+	.BigImageDiv
+	{
+		width:85%;
+		margin:0px 10px 10px 37px;
+		
+	}
+	.BigImage
+	{
+		width:94%;
+		height:300px;
+	}
+
+	.MultiImageDiv
+	{
+		margin:-157px 10px 10px 44px;
+		display:inline-block;
+		width:86%;
+	}
+	.rowImage{
+		width:45%;
+		height:194px;
+	}
+	.row2
+	{
+		margin:0px;
+	}
+
+	.row1{
+		width:100%;
+		display:inline-block;
+	}
+
+	.cityName
+	{
+		text-align: center;
+		margin: 0px;
+		font-size: 45px;
+	}
+
+	.BtnContainer
+	{
+		width: 300px;
+		margin: 0px 10px 0px 45px;
+	}
+
+	.imageList{
+		margin-left:22px;
+		width:100%;
+	}
+
+	.content
+	{
+		width:93%;
+	}
+
+	ul {
+		list-style-type: none;
+		width:100%;
+	}
+	/*Delhi Page css media query*/
+	.Container{
+		width:100%;
+		background-image: url(images/Wallpaper4.jpg);
+	}
+
+	.LeftContainer
+	{
+		border: 2px solid white;
+		margin-top: 14px;
+		width: 100%;
+		height: 245px;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
+
+	.TreeMenu
+	{
+		width: 100%;
+		height: 248px;
+		color: white;
+	}
+
+	.ListDiv
+	{
+		font-size: 16px;
+		-moz-box-shadow: inset 0 0 10px #000000;
+		-webkit-box-shadow: inset 0 0 10px #000000;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.ListItems
+	{
+		font-size: 20px;
+		font-weight: bold;
+		height: 26px;
+		text-align: center;
+		background-color:#3448A2;
+	}
+	.RightContainer
+	{
+		border: 2px solid white;
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		margin-top: 14px;
+		overflow-x: hidden;
+	}
+
+	.Info-title
+	{
+		font-size:26px;
+	}
+	.imageBlackPlace
+	{
+		margin-top:-20px;
+	}
+
+	
+	.PlaceImage
+	{
+		width:260px;
+		height:195px;
+		margin-top:-20px;
+	}
+
+	.ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+  }
+
+  .listElementPlace
+  {
+	font-size: 16px;
+	margin: 30px;
+	text-align: justify;
+  }
+  }
+  @media only screen 
+and (min-device-width : 801px) 
+and (max-device-width : 950px) 
+  {
+
+
+	.NavBar
+	{
+		width: 100%;
+		height: 26%;
+		margin: 0px 0px -175px -12px;
+	}
+
+	.ul{
+			width:100%;
+	}
+	li {
+		width: 301px;
+		height:55px;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 13px 46px 10px 58px;
+	text-decoration: none;
+	}
+
+	.PlanTrip
+	{		
+		width:100%;
+	}
+
+	.city-description
+	{
+		font-size: 18px;
+		width: 100%;
+		margin: 0px 0px 0px 34px;
+		overflow-wrap: break-word;
+		text-align: justify;
+	}
+
+	.BigImageDiv
+	{
+		width:85%;
+		margin:0px 10px 10px 37px;
+		
+	}
+	.BigImage
+	{
+		width:94%;
+		height:300px;
+	}
+
+	.MultiImageDiv
+	{
+		margin:-157px 10px 10px 44px;
+		display:inline-block;
+		width:86%;
+	}
+	.rowImage{
+		width:45%;
+		height:194px;
+	}
+	.row2
+	{
+		margin:0px;
+	}
+
+	.row1{
+		width:100%;
+		display:inline-block;
+	}
+
+	.cityName
+	{
+		text-align: center;
+		margin: 0px;
+		font-size: 45px;
+	}
+
+	.BtnContainer
+	{
+		width: 300px;
+		margin: 0px 10px 0px 45px;
+	}
+
+	.imageList{
+		margin-left:58px;
+		width:100%;
+	}
+
+	.content
+	{
+		width:93%;
+	}
+
+	ul {
+		list-style-type: none;
+		width:100%;
+	}
+  }
+
+  /* only for home image */
+  @media (min-width:280px) and (max-width:400px)
+  {
+	.HomeImg
+	{
+		height:32%;
+	}
+  }
+
+  @media (min-width:400px) and (max-width:500px)
+  {
+	.HomeImg
+	{
+		height:40%;
+	}
+  }
+
+  @media (min-width:500px) and (max-width:650px)
+  {
+	.HomeImg
+	{
+		height:50%;
+	}
+  }
+
+  @media (min-width:651px) and (max-width:850px)
+  {
+	.HomeImg
+	{
+		height:65%;
+	}
+  }
+
+  @media (min-width:851px) and (max-width:1000px)
+  {
+	.HomeImg
+	{
+		height:75%;
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*@media (min-width:280px){
+	.header
+	{
+		font-size: 23px;
+		font-weight: bold;
+		text-align: center;
+		height: 83px;	
+		font-family: Arial, Helvetica, sans-serif;
+		-moz-box-shadow:    inset 0 0 10px #000000;
+	   -webkit-box-shadow: inset 0 0 10px #000000;
+	   box-shadow:         inset 0 0 10px #000000;
+	   background-image:url(images/Wallpaper4.jpg);
+		color:white;
+		height:65px;
+	}
+	.caption{
+		font-style:italic;
+		margin:-13px 0 0 0;
+		text-align:center;
+		font-size:16px;
+	}
+	.HomeImg
+{
+	height:27%;
+	background-image:url(images/indiaCulture.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	display: -webkit-flex;
+	display: flex;  
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+}
+
+li {
+	width: 280px;
+	margin: -10px;
+}
+
+.NavBar
+{
+	width: 100%;
+	height: 25%;
+	margin: 10px 10px 3px -28px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 18px 20px;
+	text-decoration: none;
+	width:100%;
+}
+  }
+/*@media (min-width:400px){
+	.header
+	{
+		font-size: 26px;
+	}
+	.caption{
+		font-style:italic;
+		margin:-26px 0 0 0;
+		text-align:center;
+		font-size:16px;
+	}
+	.HomeImg
+{
+	height:45%;
+	
+}
+}
+
+/*@media (min-width:612px){
+	.header
+	{
+		font-size: 26px;
+	}
+	.caption{
+		font-style:italic;
+		margin:-26px 0 0 0;
+		text-align:center;
+		font-size:16px;
+	}
+	.HomeImg
+{
+	height:60%;
+	
+}
+	
+  }
+  /*@media (min-width:860px){
+	.header
+	{
+		font-size: 32px;
+	}
+	.caption{
+		font-style:italic;
+		margin:-26px 0 0 0;
+		text-align:center;
+		font-size:16px;
+	}
+	.HomeImg
+{
+	height:70%;
+	
+}
+  }
+
+  @media (min-width:1026px){
+	.header
+	{
+		font-size: 35px;
+	}
+	.caption{
+		font-style:italic;
+		margin:-26px 0 0 0;
+		text-align:center;
+		font-size:18px;
+	}
+	.HomeImg
+{
+	height:80%;
+	
+}
+}*/

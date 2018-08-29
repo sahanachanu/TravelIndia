@@ -28,35 +28,87 @@
 <div class="LeftContainer">
   <div class="TreeMenu">
   <div class="ListDiv">
-      <span class="ListItems">
-        <img class="MaxMinIconChild">Initial Concerns</span>
+      <div class="ListItems">Initial Concerns</div>
         <div class="ChildElements">
-          <p class="listElement" onClick="PlacesInfo();">Places - must visit</p>
-          <p class="listElement" onClick="TransportInfo();">Experience local transport...</p>
-          <p class="listElement" onClick="ClimateInfo();">Check for Climate...</p>
-          <p class="listElement" onClick="">Foodies!! Click here...</p>
+          <p class="active" id="selected1" onClick="PlacesInfo();">Places - must visit</p>
+          <p  id="selected2" onClick="TransportInfo();">Experience local transport...</p>
+          <p  id="selected3" onClick="ClimateInfo();">Check for Climate...</p>
 
         </div>
     </div>
     <div class="ListDiv">
-        <span class="ListItems">
-          <img class="MaxMinIconChild">Why wait? Lets Book</span>
+        <div class="ListItems">Why wait? Lets Book</div>
           <div class="ChildElements">
-            <p class="ListElement" onCLick="">Book Flights</p>
-            <p class="ListElement" onCLick="">Book Hotels</p>
+            <p id="selected5" onCLick="FlightInfo();">Book Flights</p>
+            <p id="selected6" onCLick="HotelInfo();">Book Hotels</p>
           </div>
       </div>
   </ul>
   </div>
 </div>
 <div class="RightContainer">
-<div id="PlacesDashBoard" style="display:none">
+<div id="PlacesDashBoard">
         <div class="Info-title">Places- Must Visit</div>
+
+        <!--Taj Mahal-->
+        <div class="imageBlockPlace">
+                <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/TajMahal.jpg" /></div>
+                <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/Tajmahal2.jpg"/></div>
+                <div class="imageDataPlace">	<div class="SubTitleName"> Taj Mahal </div>
+                <div class="TreeMenuPlace">
+                    <!--Tree view for why visit-->
+                    <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1>The Taj Mahal is an integrated complex of structures that include a white marble mausoleum containing the tombs 
+                                of the Mughal emperor Shah Jahan (1592 - 1666) and his third wife Mumtaz Mahal.It is located in Agra which is 200km from Delhi and easily accessible by bus, train or flight.
+                                It is one of the world's most iconic monument and is <b>one of the New 7 Wonders of the World</tab1></b><br><br>
+                               <tab1> The Taj Mahal was designated as a UNESCO World Heritage Site 
+                                in 1983 for being “the jewel of Muslim art in India and one of the universally admired masterpieces of the world’s heritage”.It is regarded
+                                 by many as the best example of Mughal architecture and a symbol of India’s rich history. The Taj Mahal attracts 7–8 million visitors a year.</tab1></p>
+                          </div>
+                      </div>
+        
+                      <!--Tree view for what attracts-->
+                      <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">
+                                    <tab1>Agra Fort, the UNESCO-listed palace-fortress that was a residence of the Mughal emperors until 
+                                    the mid-17th century. Tour its highlights with a guide, noting the Islamic and Hindu architecture 
+                                    and learning how Emperor Shah Jahan, who commissioned the Taj Mahal as a mausoleum for his favorite wife, 
+                                    was imprisoned here in view of the marble masterpiece.</tab1><br>
+                                    <tab1>The elegance of Tajmahal and its internal architecture, followed by the 
+                                        smaller Tomb of Itmad-ud-Daulah, often regarded as the inspiration for the Tajmahal</tab1>
+                            </p>
+                  
+                          </div>
+                      </div>
+        
+                      <!-- Tree view for entry fee -->
+                <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">Foreign Tourist: Rs.1100/-<br> 
+                                India Citizens: Rs.50/-<br>
+                                Citizens of SAARC:Rs.540/-<br><br>
+
+                                <b>Taj Mahal is open from 30 Minutes before sunrise and upto 30 Mintues before 
+                                    sunset during normal operating days and is closed on fridays</b>
+                                </p>
+                          </div>
+                      </div>
+                </div>
+                </div>
+        </div>
 
         <!--Akshardham temple-->
         <div class="imageBlockPlace">
-        <div class="imageVerticalPlace1"><img src="images/AksharDham.jpg" style="width:420px; height:300px;"/></div>
-        <div class="imageVerticalPlace2"><img src="images/AksharDham2.jpg" style="width:420px; height:300px;"/></div>
+        <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/AksharDham.jpg"/></div>
+        <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/AksharDham2.jpg" /></div>
         <div class="imageDataPlace">	<div class="SubTitleName"> Aksharadham Temple </div>
         <div class="TreeMenuPlace">
             <!--Tree view for why visit-->
@@ -64,10 +116,10 @@
                 <span class="ListItemsPlace">
                   <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
                   <div class="ChildElementsPlace" style="display:none">
-                    <p class="listElementPlace">Swaminarayan Akshardham in New Delhi reflects 10,000 years of Indian culture in all its breathtaking grandeur, 
+                    <p class="listElementPlace"><tab1>Swaminarayan Akshardham in New Delhi reflects 10,000 years of Indian culture in all its breathtaking grandeur, 
                         beauty, wisdom and bliss. It brilliantly showcases the essence of India’s ancient architecture, traditions and timeless spiritual 
                         messages. The Akshardham experience is an enlightening journey through India’s glorious art, which helps you gain peace of mind and heart. 
-                        Therefore visiting this place is definitely a treat to eyes and mind.</p>
+                        Therefore visiting this place is definitely a treat to eyes and mind.</tab1></p>
                   </div>
               </div>
 
@@ -109,7 +161,7 @@
               <!-- Tree view for entry fee -->
         <div class="ListDivPlace">
                 <span class="ListItemsPlace">
-                  <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time spent</span>
+                  <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time</span>
                   <div class="ChildElementsPlace" style="display:none">
                     <p class="listElementPlace"><b><u>Exhibition for 3 Halls:</u></b><br>
                         Adults: Rs.170/-<br> Children (above 4 years): Rs.100/-<br> Senior Citizens: Rs.125/-<br><br>
@@ -124,8 +176,8 @@
 
         <!--India Gate-->
         <div class="imageBlockPlace">
-                <div class="imageVerticalPlace1"><img src="images/IndiaGate.jpg" style="width:420px; height:300px;"/></div>
-                <div class="imageVerticalPlace2"><img src="images/IndiaGate2.jpg" style="width:420px; height:300px;"/></div>
+                <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/IndiaGate.jpg" /></div>
+                <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/IndiaGate2.jpg"/></div>
                 <div class="imageDataPlace">	<div class="SubTitleName"> India Gate </div>
                 <div class="TreeMenuPlace">
                     <!--Tree view for why visit-->
@@ -133,10 +185,9 @@
                         <span class="ListItemsPlace">
                           <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
                           <div class="ChildElementsPlace" style="display:none">
-                            <p class="listElementPlace">Swaminarayan Akshardham in New Delhi reflects 10,000 years of Indian culture in all its breathtaking grandeur, 
-                                beauty, wisdom and bliss. It brilliantly showcases the essence of India’s ancient architecture, traditions and timeless spiritual 
-                                messages. The Akshardham experience is an enlightening journey through India’s glorious art, which helps you gain peace of mind and heart. 
-                                Therefore visiting this place is definitely a treat to eyes and mind.</p>
+                            <p class="listElementPlace"><tab1>India Gate is a war memorial, which was initially named as the 
+                                All India War Memorial.This structure stands as a memorial to more than 70,000 soldiers 
+                                who died in the First World War and the third Anglo-Afghan war.</tab1></p>
                           </div>
                       </div>
         
@@ -145,32 +196,64 @@
                         <span class="ListItemsPlace">
                           <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
                           <div class="ChildElementsPlace" style="display:none">
-                            <p class="listElementPlace"> <b><u>Musical Fountain</u></b><br> Circle of Life (Evenings at Sunset - 15 min.)
+                            <p class="listElementPlace">
+                                    <tab1>The gate holds inscription of 13,300 names of Indian soldiers, service men and UK officials. 
+                                    Later in 1971, a small structure made of black marble with a reversed rifle holding a war helmet
+                                     on top was built under the arch. This structure is called Amar Jawan Jyoti. The gate is 42 meter 
+                                     tall standing on a basement made of Bharatpur red stone. A shallow dome is open on the top of 
+                                     the wall, whichwas used to light the gate with burning oil.</tab1>
+                            </p>
+                  
+                          </div>
+                      </div>
         
-                                A spectacular musical fountain show that depicts the cycle of birth, life, and death as described in Indian philosophy.<br><br>
+                      <!-- Tree view for entry fee -->
+                <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1><u>No entry charge or photography charge for the monument</u>.<br>
+                                The best time to visit is between 7 pm and 9:30 pm. During this time, the structure will be illuminated.<br>
+                                If you visit in January, you ought to witness the parade that passes through the India Gate on Jan 26th, 
+                                the Republic day.</tab1>
+                            </p>
+                          </div>
+                      </div>
+                </div>
+                </div>
+        </div>
+
+        <!--Qutub Minar -->
+        <div class="imageBlockPlace">
+                <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/Qutub1.jpg" /></div>
+                <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/Qutub2.jpg" /></div>
+                <div class="imageDataPlace">	<div class="SubTitleName"> Qutub Minar </div>
+                <div class="TreeMenuPlace">
+                    <!--Tree view for why visit-->
+                    <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1>Qutab Minar is a UNESCO world's heritage site. It is a soaring, 73 m-high tower of victory, built in 1193 
+                                by Qutab-ud-din Aibak immediately after the defeat of Delhi's last Hindu kingdom. The tower has 
+                                five distinct storeys, each marked by a projecting balcony and tapers from a 15 m diameter at the base 
+                                to just 2.5 m at the top.</tab1></p>
+                          </div>
+                      </div>
         
-        <b><u>Garden of India</u></b> <br>
-                                
-                                Sixty acres of lush lawns, gardens and exquisite bronze statues, honouring India's child heroes, valorous warriors, national patriots 
-                                and great women personalities who inspire values and character.<br><br>
-                                
-                                <b><u>Lotus Garden</u></b> <br>
-                                
-                                A lotus-shaped garden echoing spirituality as expressed by philosophers, scientists, and leaders throughout history <br><br>
-                                <b><u>Hall 1 - Hall of Values (50 mins)</u></b><br>
-        
-                                Experience enduring human values through films and robotic shows that depict the ideals of nonviolence, honesty, family harmony, and spirituality.<br><br>
-        
-                                <b><u>Hall 2 - Giant Screen Film (40 mins)</u></b> <br>
-        
-                                Discover India through the incredible story of an eleven-year-old yogi named Nilkanth that brings to life the culture and spirituality of India's customs, 
-                                the majesty of its art and architecture, and the unforgettable sights, sounds, and power of its awe-inspiring festivals.<br><br>
-        
-                                <b><u>Hall 3 - Cultural Boat Ride (15 mins)</u></b><br>
-        
-                                Sail through 10,000 years of India's glorious heritage. Learn about the discoveries and inventions of the rishi-scientists of India, see the world’s first university of Takshashila, sail through the caves of Ajanta-Ellora
-                                 and discover India's contributions to humanity through the ages.
-        </p>
+                      <!--Tree view for what attracts-->
+                      <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">
+                                    The tower is a symbol of first Muslim Emperor in the North India.<br>
+                                            The Iron Pillar in the Qutub Minar was made during Gupta Empire.<br>
+                                            It has not rusted since past 2000 years.<br>
+                                            In the area of Qutub Minar, there is a regular lighting show at the evening from 6:30 pm to 8:00 pm every day.<br>
+                                            There are 379 steps inside the minaret to reach the top.<br>
+                                            There are almost half a dozen minor structures in the complex of Qutub Minar.
+                            </p>
                   
                           </div>
                       </div>
@@ -180,11 +263,63 @@
                         <span class="ListItemsPlace">
                           <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time spent</span>
                           <div class="ChildElementsPlace" style="display:none">
-                            <p class="listElementPlace"><b><u>Exhibition for 3 Halls:</u></b><br>
-                                Adults: Rs.170/-<br> Children (above 4 years): Rs.100/-<br> Senior Citizens: Rs.125/-<br><br>
-                                <b><u>Musical Fountain:</u></b><br>
-                                Adults: Rs.80/-<br> Children (above 4 years): Rs.50/-<br> Senior Citizens: Rs.80/-<br><br>
-                            The total time spent will be around 4 to 5 hours, which includes the shows and walking around the temple</p>
+                            <p class="listElementPlace">Children (until 15 years of age): free <br> 
+                                Indian citizens: Rs.30/-<br> 
+                                Foriegn citizens: Rs.500/-<br>
+                            The total time spent will be around 1 to 2 hours, and is open from 10am to 6pm for visitors
+                            </p>
+                          </div>
+                      </div>
+                </div>
+                </div>
+        </div>
+
+        <!--Lotus Mahal -->
+        <div class="imageBlockPlace">
+                <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/LotusMahal.jpg"/></div>
+                <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/LotusMahal2.jpg" /></div>
+                <div class="imageDataPlace">	<div class="SubTitleName"> Lotus Mahal </div>
+                <div class="TreeMenuPlace">
+                    <!--Tree view for why visit-->
+                    <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1>The Bahai Temple is commonly called the Lotus Temple, as it's shaped like a lotus flower. 
+                                The theory essentially travels to making everyone connect regardless of their caste, religion, practice. This temple is free 
+                                to be entered by anyone and does not follow any code of conduct to practice prayers.
+
+                                    With a white lotus appearance that stands tall and glorious for the tourists to walk in is a global place which experiences 
+                                    the largest footfall of tourists for peace, prayers, meditation, and study.</tab1></p>
+                          </div>
+                      </div>
+        
+                      <!--Tree view for what attracts-->
+                      <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">
+                                    <tab1>Everyone is welcome to sit inside and pray to the creator of universe, chant, read Baha’i 
+                                        scripture or set them to choirs. There are four core activities practiced by the Baha’i community here and they are:
+
+                                            Devotional meetings,
+                                            Study circles,
+                                            Children classes and
+                                            Junior youth classes</tab1>
+                            </p>
+                  
+                          </div>
+                      </div>
+        
+                      <!-- Tree view for entry fee -->
+                <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time spent</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">No entry fee. It is open from 9am until sunset.<br>
+                                Closed on Mondays.
+                            </p>
                           </div>
                       </div>
                 </div>
@@ -197,7 +332,7 @@
         <div class="Info-title">Transporation Modes in New Delhi</div>
 
         <div class="imageBlock1">
-        <div class="imageVertical"><img src="images/metro.jpg" height=200 width=300/></div>
+        <div class="imageVertical"><img class="PlaceImage" src="images/metro.jpg" height=200 width=300/></div>
         <div class="imageData">	<div class="SubTitleName"> Metro Trains </div>It is fast, efficient, fairly priced and environmentally friendly.Currently there are 6 lines 
         around the city covering many stations. A route map is available at <a class="link" href="http://www.delhimetrorail.com/Zoom_Map.aspx" target = "_blank"><strong>Metro Map.</strong></a>.
         A fare chart is available at <a class="link" href="https://delhimetrorail.info/delhi-metro-fare" target = "_blank"><strong>Metro Fares.</strong></a>.
@@ -233,15 +368,31 @@
 
 <!-- New Delhi Climate div -->
 <div id="ClimateDashboard" style="display:none">
-<div class="transport-title">Climate in New Delhi</div>
+<div class="Info-title">Climate in New Delhi</div>
 <div class = "row1">
         <div class = "summer"><div class="imageSun"><img src="images/sunny.png" height=100 width=200/></div>SUMMER - April to July (extremely hot 25 to 45 degree celsius) </div>
           <div class = "summer"><div class="imageSun"><img src="images/winter.png" height=100 width=200/></div>  WINTER - December to January (extremely cold 5 to 20 degree celcius)
        </div>
        </div>  
 </div>
-<div id="RestaurantDasboard" style="display:none"></div>
-
+<div id="FlightDashboard" style="display:none">
+    <div class="Info-title">Book Your Flights</div>
+    <div class="FlightInfo">I have shared two inks here which I found to be suitable enough and is relatively cheper to book flights to New Delhi</div>
+    <div class="imageBlockFlight">
+        <div class = "ReservationImage"><a href="https://www.cheapoair.com/flights/booknow/destinations/city?city-code=del&fpaffiliate=google&fpsub=new-delhi-flights-b&utm_campaign=destination-asia-intl-bm&utm_term=flight%20new%20delhi&utm_source={google}&utm_medium={cpc}&device=c&fpprice=&gclid=EAIaIQobChMImLfrxZ7F2AIViTqBCh2OkQhCEAAYAiAAEgKUy_D_BwE" target="_blank">
+            <img class="imageFlight" src="images/bookflight.jpg" width=300px height=200px></a></div>
+            <div class = "ReservationImage"><a href="https://www.kayak.com/flight-routes/United-States-US0/New-Delhi-Indira-Gandhi-Intl-DEL" target="_blank">
+                <img src="images/bookflight2.jpg" width=300px height=200px></a></div>
+</div>
+</div>
+<div id="HotelDashboard" style="display:none">
+    <div class="Info-title">Book Your Flights</div>
+    <div class="FlightInfo">I have shared two inks here which I found to be suitable enough and is relatively cheper to book your stay at New Delhi</div>
+    <div class="imageBlockFlight">
+        
+            
+</div>
+</div>
 </div>
 </div>
 <script>
