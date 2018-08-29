@@ -364,9 +364,9 @@ p:hover{
 
 .mySlides
 {
-	width: 100%;
+	width: 614px;
 	height: 443px;
-	margin: 23px 23px 23px 23px;
+	margin: 23px 23px 23px 140px;
 }
 
 .ArrowKeys
@@ -441,17 +441,8 @@ p:hover{
 	text-align:center;
   }
 
-  .imageVerticalPlace1
-  {
-	  display:inline-block;
-	  margin:21px;
-  } 
-
-  .imageVerticalPlace2
-  {
-	  display:inline-block;
-	  margin:21px;
-  } 
+  
+  
 
   .ListItemsPlace
   {
