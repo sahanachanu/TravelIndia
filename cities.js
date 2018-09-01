@@ -1,5 +1,5 @@
 
-if(window.location.href == "WEBPAGE.html")
+if(window.location.href == "index.html")
 {
     document.getElementById("MenuBarHome").classList.add("MenuBarActive");
 }

@@ -4,59 +4,78 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" 
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" 
-	integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    
 
 <link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="cities.js"></script>
 <title> This is my first webpage </title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<div class="flex-container">
+
+<div class="TitleDiv">
 <div class="header">Captivating Cities of INDIA</div>
-<div class="caption">India always attract people towards its rich culture and over whelming places!!!</div> 
+<div class="caption">India always attract people towards its rich culture and over whelming places!!!</div>
+</div> 
+<div class="HomeImg"></div>
+<div class="NavBar">
+<ul>
+        <li><a class="active" href="#MoveHere" id="MenuBarHome">Home</a></li>
+        <li><a href="PicsDashboard.html" id="MenuBarPics">Pictures</a></li>
+        <li><a href="interact.html" id="MenuBarAbout">Coming Soon</a></li>
+</ul>
+</div>
+<div id="MoveHere" class="flex-container">
+  <div class="content">
 <div class="cityName">New Delhi</div>
+<div class="BtnContainer"><button class="PlanTrip" onClick="window.location.href='NewDelhi.html'">Plan a trip</button></div>
+  <div class="city-description"> New Delhi being the capital of India has never failed to retain its charm. It is one of the beautiful places people 
+    do not want to miss. 
+    India Gate, Tajmahal, Lotus Mahal, Akshar Dham and lot more....</div>
+<div class="imageList">
+<div class="BigImageDiv">
+<a title = "India Gate"><img class="BigImage" src = "images/IndiaGate.jpg" height= 200px width=250px/></a>
+</div>
+<div class="MultiImageDiv">
+<div class="row1">
+<a title = "Red Fort"><img class="rowImage" src = "images/RedFort.jpg" height= 200px width=250px/></a>
+<a title = "Lotus Mahal"><img class="rowImage" src = "images/LotusMahal.jpg" height= 200px width=250px/></a>
+</div>
+<div class="row2">
+<a title = "Taj Mahal"><img class="rowImage" src = "images/TajMahal.jpg" height= 200px width=250px/></a>
+<a title = "QutubMinar"><img class="rowImage" src = "images/Qutub1.jpg" height= 200px width=250px/></a>
+</div>
+</div>
+</div>
+
+<div class="cityName">Bengaluru</div>
+<div class="BtnContainer"><button class="PlanTrip" onClick="window.location.href='Bangalore.html'">Plan a trip</button></div>
+  <div class="city-description"> Wow!! Graden City Namma Bengaluru....People love to stay in bangalore because of its awesome weather, variety of food,
+    Malls, Job opportunities and so on....Mysore being neighbor of Bangalore, 
+   flaunts about its rich culture which can be senn in places like Mysore Palace, Chamundi Hills etc....</div>
 <div>
-<div id = "row">
-<div class="imageList"><a title = "IndiaGate"><img src = "images/IndiaGate.jpg" height= 200px width=250px/></a></div>
-<div class="imageList"><a title = "RedFort"><img src = "images/RedFort.jpg" height= 200px width=250px/></a></div>
+<div class="imageList">
+<div class="BigImageDiv">
+<a title = "Bangalore Palace"><img class="BigImage" src = "images/BangalorePalace.jpg" height= 200px width=250px/></a>
+</div>
+<div class="MultiImageDiv">
+<div class="row1">
+<a title = "Lal bagh"><img class="rowImage" src = "images/LalBhag.jpg" height= 200px width=250px/></a>
+<a title = "Mysore Palace"><img class="rowImage" src = "images/MysorePalace.jpg" height= 200px width=250px/></a>
+</div>
+<div class="row2">
+<a title = "Chamundi Hills"><img class="rowImage" src = "images/Chamundi.jpg"  height= 200px width=250px/></a>
+<a title = "Isckon temple"><img class="rowImage" src = "images/IskconTemple.jpg" height= 200px width=250px/></a>
+</div>
+</div>
+</div>
 
-<div class="imageList"><a title = "LotusMahal"><img src = "images/LotusMahal.jpg" height= 200px width=250px/></a></div>
-<div class="imageList"><a title = "TajMahal"><img src = "images/TajMahal.jpg" height= 200px width=250px/></a></div>
-</div>
-<!--<div id = "planTrip"><img src = "planTrip.jpg" height= 250px width=300px/></div>-->
-<div class="delhi-info"><div class = "btnDelhi"><button class="PlanTrip"onclick="window.location.href='NewDelhi.html'" width="450" height="60">
-<b>Plan my trip to NEW DELHI</b></button></div>
-<div><p> New Delhi being the capital of India has never failed to retain its charm. It is one of the beautiful places people 
-do not want to miss. 
-India Gate, Tajmahal, Lotus Mahal, Akshar Dham and lot more....</p></div>
-</div>
-</div>
-<div class = "cityName">Bengaluru</div>
-<div>
-<div class = "row">
-<div class="imageList"><a title = "Bangalore Palace"><img src = "images/BangalorePalace.jpg" height= 200px width=250px/></a></div>
-<div class="imageList"><a title = "LalBhag"><img src = "images/LalBhag.jpg" height= 200px width=250px/></a></div>
 
-<div class="imageList"><a title = "Mysore Palace"><img src = "images/MysorePalace.jpg" height= 200px width=250px/></a></div>
-<div class="imageList"><a title = "Chamundi Hills"><img src = "images/Chamundi.jpg" height= 200px width=250px/></a></div>
-</div>
-<!--<div id = "planTrip"><img src = "planTrip.jpg" height= 250px width=300px/></div>-->
-<div class="delhi-info"><div class = "btnDelhi"><button class="PlanTrip"onclick="window.location.href='NewDelhi.html'" width="450" height="60">
-<b>Plan my trip to Bengaluru</b></button></div>
-<div><p> Wow!! Graden City Namma Bengaluru....People love to stay in bangalore because of its awesome weather, variety of food,
- Malls, Job opportunities and so on....Mysore being neighbor of Bangalore, 
-flaunts about its rich culture,Mysore Palace, Chamundi Hills, so can anyone stay without visiting Mysore?...</p>
-</div>
-</div>
-</div>
-</div>
-<script>
 
-</script>
+</div>
+</div>
+</div>
+</div>
 </body>
 
 
