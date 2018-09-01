@@ -171,11 +171,11 @@ li a {
 }
 
 li a:hover {
-	background-color: #DB7063;
+	background-color: #4ba896;
 }
 
 .active {
-    background-color: #DB7063;;
+    background-color: #9c8d8b;;
 }
 
 .imageVertical
@@ -236,9 +236,9 @@ li a:hover {
 	margin:80px 0px 0px 63px;
 	display:inline-block;
 }
-.ReservationImage:hover{
+/*.ReservationImage:hover{
 	transform: scale(1.3);
-}
+}*/
 .link
 {
 		text-align: center;
@@ -538,32 +538,32 @@ p:hover{
 		text-align: center;
 	}
 
-  @media (min-width:280px) and (max-width:400px)
+  @media (min-width:273px) and (max-width:400px)
   {
 	
 	.header
 	{
-		font-size: 22px;
+		font-size: 20px;
 	}
 	.caption{
 		font-style:italic;
 		margin:-36px 0 0 0;
 		text-align:center;
-		font-size:15px;
+		font-size:14px;
 	}
 	
 
 	.NavBar
 	{
 		width: 100%;
-		height: 112px;
-		margin: 10px;
+    	height: 30px;
+    	margin: 0px 0px 0px -43px;
 	}
 	
 	li {
-		width: 100%;
-		margin: -11px -11px -11px -51px;
-		height:57px;
+		width: 35%;
+		margin: -11px -11px -11px 3px;
+		height: 39px;
 	}
 
 	li a {
@@ -588,29 +588,31 @@ p:hover{
 
 	.BigImageDiv
 	{
-		width:40%;
-		margin:0px 10px 10px 23px;
+		width:100%;
+		margin:10px 10px 10px 60px;
+		height:196px;
 		
 	}
 	.BigImage
 	{
-		width:215%;
-		height:270px;
+		width:60%;
+		height:190px;
 	}
 
 	.MultiImageDiv
 	{
-		margin:-188px 10px 10px 25px;
+		margin:-50px 0px 0px 60px;
 	}
 	.rowImage{
-		width:100%;
+		width:86%;
 		height:194px;
 	}
 	
 	.cityName
 	{
-		margin:16px;
+		margin:10px 0px 28px -4px;
 		text-align:center;
+		font-size:39px;
 	}
 
 	.BtnContainer
@@ -661,7 +663,7 @@ p:hover{
 		border: 2px solid white;
 		margin-top: 0px;
 		width: 100%;
-		height: 240px;
+		height: 272px;
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
@@ -675,7 +677,7 @@ p:hover{
 
 	.ListDiv
 	{
-		font-size: 16px;
+		font-size: 18px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
 		cursor: pointer;
@@ -688,7 +690,7 @@ p:hover{
 		font-weight: bold;
 		height: 25px;
 		text-align: center;
-		background-color:#3448A2;
+		background-color:#419597;
 	}
 
 	.RightContainer
@@ -734,7 +736,7 @@ p:hover{
 	display: block;
 	margin: 20px;
 	border-radius: 25px;
-	font-size:14px;
+	font-size:12px;
 	font-weight:bold;
 	color:black;
   }
@@ -795,9 +797,12 @@ p:hover{
 		vertical-align: top;
 		width: 52%;
 		height: 100px;
-		margin: 22px 70px 70px 90px;
+		margin: 153px 70px 70px 61px;
 	}
 	
+	.arrow-buttons{
+		height:70px;
+	}
 	/*css for transport page*/
 	.imageBlock1{
 		height: 40%;
@@ -872,7 +877,7 @@ p:hover{
 		font-size:18px;
 	}
 
-	.NavBar
+	/*.NavBar
 	{
 		width: 100%;
 		height: 105px;
@@ -892,6 +897,26 @@ p:hover{
 	padding: 10px;
 	text-decoration: none;
 	font-size:20px;
+	}*/
+	.NavBar
+	{
+		width: 100%;
+    	height: 30px;
+    	margin: 0px 0px 0px -43px;
+	}
+	
+	li {
+		width: 34%;
+		margin: -11px -11px -11px 4px;
+		height: 39px;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
 	}
 
 	.PlanTrip
@@ -1031,7 +1056,7 @@ p:hover{
 		font-weight: bold;
 		height: 29px;
 		text-align: center;
-		background-color:#3448A2;
+		background-color:#419597;
 	}
 	.RightContainer
 	{
@@ -1092,7 +1117,7 @@ p:hover{
   /*CSS for pictures page*/
 	.ContainerPics{
 	width:100%;
-	height:95%;
+	height:100%;
 	background-image:url(images/Wallpaper4.jpg);
 	}
 	
@@ -1139,9 +1164,11 @@ p:hover{
 		vertical-align: top;
 		width: 52%;
 		height: 100px;
-		margin: 21px 122px 122px 103px;
+		margin: 267px 122px 122px 98px;
 	}
-	
+	.arrow-buttons{
+		height:68px;
+	}
 	/*css for transport page*/
 	.imageBlock1{
 		height: 40%;
@@ -1380,7 +1407,7 @@ and (max-width : 800px) {
 		font-weight: bold;
 		height: 36px;
 		text-align: center;
-		background-color:#3448A2;
+		background-color:#419597;
 	}
 	.RightContainer
 	{
@@ -1433,7 +1460,7 @@ and (max-width : 800px) {
   /*CSS for pictures page*/
 	.ContainerPics{
 	width:100%;
-	height:87%;
+	height:100%;
 	background-image:url(images/Wallpaper4.jpg);
 	}
 	
@@ -1479,7 +1506,10 @@ and (max-width : 800px) {
 		vertical-align: top;
 		width: 48%;
 		height: 100px;
-		margin: 104px 170px 170px 230px;
+		margin: 266px 170px 170px 158px;
+	}
+	.arrow-buttons{
+		height:80px;
 	}
 	/*css for transport page*/
 	.imageBlock1{
@@ -1720,7 +1750,7 @@ and (max-width : 960px)
 		font-size: 19px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
-		box-shadow: inset 0px 40px 0px #3448A2;
+		box-shadow: inset 0px 40px 0px #419597;
 		width: 100%;
 		cursor: pointer;
 	}
@@ -1730,6 +1760,7 @@ and (max-width : 960px)
 		font-size:21px;
 		font-weight:bold;
 		text-align:center;
+		background-color:#419597;
 	}
 	
 	.imageBlackPlace
@@ -1772,7 +1803,7 @@ and (max-width : 960px)
 	/*CSS for pictures page*/
 	.ContainerPics{
 	width:100%;
-	height:86%;
+	height:100%;
 	background-image:url(images/Wallpaper4.jpg);
 	}
 	
@@ -1805,7 +1836,10 @@ and (max-width : 960px)
 		vertical-align: top;
 		width: 36%;
 		height: 100px;
-		margin: 145px 170px 170px 284px;
+		margin: 349px 170px 170px 256px;
+	}
+	.arrow-buttons{
+		height:67px;
 	}
 	/*css for transport page*/
 	.imageBlock1{
@@ -1971,7 +2005,7 @@ and (max-width : 1100px)
 		font-size: 19px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
-		box-shadow: inset 0px 40px 0px #3448A2;
+		box-shadow: inset 0px 40px 0px #419597;
 		width: 100%;
 		cursor: pointer;
 	}
@@ -1981,6 +2015,7 @@ and (max-width : 1100px)
 		font-size:21px;
 		font-weight:bold;
 		text-align:center;
+		background-color:#419597;
 	}
 	
 	.imageBlackPlace
@@ -2023,7 +2058,7 @@ and (max-width : 1100px)
 	/*CSS for pictures page*/
 	.ContainerPics{
 	width:100%;
-	height:86%;
+	height:100%;
 	background-image:url(images/Wallpaper4.jpg);
 	}
 	
@@ -2056,7 +2091,10 @@ and (max-width : 1100px)
 		vertical-align: top;
 		width: 36%;
 		height: 100px;
-		margin: 145px 170px 170px 335px;
+		margin: 350px 170px 170px 314px;
+	}
+	.arrow-buttons{
+		height:66px;
 	}
 	/*css for transport page*/
 	
@@ -2202,7 +2240,7 @@ and (max-width : 1328px)
 		font-size: 22px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
-		box-shadow: inset 0px 40px 0px #3448A2;
+		box-shadow: inset 0px 40px 0px #419597;
 		width: 100%;
 		cursor: pointer;
 	}
@@ -2212,6 +2250,7 @@ and (max-width : 1328px)
 		font-size:26px;
 		font-weight:bold;
 		text-align:center;
+		background-color:#419597;
 	}
 	
 	.imageBlackPlace
@@ -2309,6 +2348,9 @@ and (max-width : 1328px)
 		margin:80px 0px 0px 63px;
 		display:inline-block;
 	}
+	.ReservationImage:hover{
+		transform: scale(1.3);
+	}
   }
   
   @media only screen 
@@ -2405,7 +2447,7 @@ and (max-width : 1689px)
 		font-size: 22px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
-		box-shadow: inset 0px 40px 0px #3448A2;
+		box-shadow: inset 0px 40px 0px #419597;
 		width: 100%;
 		cursor: pointer;
 	}
@@ -2415,6 +2457,7 @@ and (max-width : 1689px)
 		font-size:26px;
 		font-weight:bold;
 		text-align:center;
+		background-color:#419597;
 	}
 	
 	.imageBlackPlace
@@ -2507,6 +2550,9 @@ and (max-width : 1689px)
 	{
 		margin:80px 0px 0px 135px;
 		display:inline-block;
+	}
+	.ReservationImage:hover{
+		transform: scale(1.3);
 	}
   }
   
@@ -2604,7 +2650,7 @@ and (max-width : 1980px)
 		font-size: 24px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
-		box-shadow: inset 0px 40px 0px #3448A2;
+		box-shadow: inset 0px 40px 0px #419597;
 		width: 100%;
 		cursor: pointer;
 	}
@@ -2614,6 +2660,7 @@ and (max-width : 1980px)
 		font-size:30px;
 		font-weight:bold;
 		text-align:center;
+		background-color:#419597;
 	}
 	
 	.imageBlackPlace
@@ -2707,6 +2754,9 @@ and (max-width : 1980px)
 	{
 		margin:80px 0px 0px 193px;
 		display:inline-block;
+	}
+	.ReservationImage:hover{
+		transform: scale(1.3);
 	}
   }
 
