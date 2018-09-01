@@ -384,7 +384,7 @@ p:hover{
 	vertical-align: top;
 	width: 15%;
 	height: 100px;
-	margin: 194px 100px 100px 120px;
+	/*margin: 194px 100px 100px 120px;*/
 }
 
 .arrow-buttons {
@@ -398,7 +398,6 @@ p:hover{
 	color: white;
 	background-color: #3448A2;
 	border: 3px solid white;
-	border-radius: 18px;
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 	transition: all 0.3s ease 0s;
 	cursor: pointer;
@@ -522,7 +521,7 @@ p:hover{
 	{
 		width:45%;
 		display:inline-block;
-		margin: 20px;
+		margin: 20px 20px 20px 25px;
 	}
 	.PlaceImage
 	{
@@ -542,7 +541,7 @@ p:hover{
 	
 	.header
 	{
-		font-size: 20px;
+		font-size: 24px;
 	}
 	.caption{
 		font-style:italic;
@@ -587,24 +586,23 @@ p:hover{
 
 	.BigImageDiv
 	{
-		width:100%;
-		margin:10px 10px 10px 60px;
-		height:196px;
-		
+		width: 100%;
+    	margin: 10px 10px -29px 71px;
+    	height: 196px;	
 	}
 	.BigImage
 	{
-		width:60%;
-		height:190px;
+		width: 57%;
+    	height: 149px;
 	}
 
 	.MultiImageDiv
 	{
-		margin:-50px 0px 0px 60px;
+		margin:-50px 0px 0px 20px;
 	}
 	.rowImage{
-		width:86%;
-		height:194px;
+		width: 48%;
+    	height: 119px;
 	}
 	
 	.cityName
@@ -714,11 +712,11 @@ p:hover{
 
 	.imageVerticalPlace1
 	{
-		width:90%;
+		width:81%;
 	}
 	.imageVerticalPlace2
 	{
-		width:90%;
+		width:81%;
 	}
 	.PlaceImage
 	{
@@ -733,9 +731,9 @@ p:hover{
 	background-color: #1ea295;
 	height: 45px;
 	display: block;
-	margin: 20px;
+	margin: 14px;
 	border-radius: 25px;
-	font-size:12px;
+	font-size:15px;
 	font-weight:bold;
 	color:black;
   }
@@ -793,10 +791,10 @@ p:hover{
 	}
 	.ArrowKeys{
 		display: inline-block;
-		vertical-align: top;
 		width: 52%;
-		height: 100px;
-		margin: 153px 70px 70px 61px;
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
 	}
 	
 	.arrow-buttons{
@@ -1162,8 +1160,9 @@ p:hover{
 		display: inline-block;
 		vertical-align: top;
 		width: 52%;
-		height: 100px;
-		margin: 267px 122px 122px 98px;
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
 	}
 	.arrow-buttons{
 		height:68px;
@@ -1265,6 +1264,7 @@ and (max-width : 800px) {
 	text-align: center;
 	padding: 10px;
 	text-decoration: none;
+	height:24px;
 	}
 
 	.PlanTrip
@@ -1504,8 +1504,9 @@ and (max-width : 800px) {
 		display: inline-block;
 		vertical-align: top;
 		width: 48%;
-		height: 100px;
-		margin: 266px 170px 170px 158px;
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
 	}
 	.arrow-buttons{
 		height:80px;
@@ -1834,8 +1835,9 @@ and (max-width : 960px)
 		display: inline-block;
 		vertical-align: top;
 		width: 36%;
-		height: 100px;
-		margin: 349px 170px 170px 256px;
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
 	}
 	.arrow-buttons{
 		height:67px;
@@ -2089,8 +2091,9 @@ and (max-width : 1100px)
 		display: inline-block;
 		vertical-align: top;
 		width: 36%;
-		height: 100px;
-		margin: 350px 170px 170px 314px;
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
 	}
 	.arrow-buttons{
 		height:66px;
@@ -2326,8 +2329,10 @@ and (max-width : 1328px)
 		display: inline-block;
 		vertical-align: top;
 		width: 25%;
-		height: 88px;
-		margin: 248px 170px 170px 484px;
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
+		
 	}
 	/*css for transport page*/
 	
@@ -2530,8 +2535,9 @@ and (max-width : 1689px)
 		display: inline-block;
 		vertical-align: top;
 		width: 28%;
-		height: 100px;
-		margin: 116px 170px 170px 597px;;
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
 	}
 	/*css for transport page*/
 	
@@ -2732,9 +2738,13 @@ and (max-width : 1980px)
 	.ArrowKeys{
 		display: inline-block;
 		vertical-align: top;
-		width: 20%;
-		height: 100px;
-		margin: 8px 170px 170px 764px;
+		
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
+		width:25%;
+		/*height: 100px;
+		margin: 8px 170px 170px 764px;*/
 	}
 	
 	/*css for transport page*/
