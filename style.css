@@ -157,6 +157,8 @@ li {
 	width: 34%;
 	margin: -11px -11px -11px -17px;
 	height:57px;
+	background-color:#3448A2;
+	text-align:center;
 }
 
 
@@ -164,7 +166,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 180px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -217,19 +219,21 @@ li a:hover {
 
 .imageSun
 {
-		width: 320px;
-		margin: 10px 0 0px 65px;
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .summer
 {
 	font-size: 25px;
 	display: inline-block;
 	width: 40%;
-	margin: 70px 0px 0px 61px;
+	margin: 31px 0px 0px 61px;
 }
 .ReservationImage
 {
-	margin:0 0 0 85px;
+	margin:80px 0px 0px 63px;
 	display:inline-block;
 }
 .ReservationImage:hover{
@@ -247,13 +251,14 @@ h1
 }
 a
 {
-	background-color:#3448A2;
+	
 	font-weight:bold;
 }
 
 .Container{
 	width:100%;
 	background-image:url(images/Wallpaper4.jpg);
+	height:87%;
 }
 
 .DashboardContainer
@@ -331,7 +336,6 @@ p:hover{
 #TransportDashboard
 {
 	height: 100%;
-	overflow-y: scroll;
 	color: white;
 }
 
@@ -358,9 +362,15 @@ p:hover{
 	font-weight: bold;
 	text-align: center;
 	margin: 10px;
+	color:white;
 }
-
-
+.NewPlaces
+{
+		text-align: center;
+		font-size: 45px;
+		color: white;
+		box-shadow: inset 5px 5px 10px #49d2bd, inset -5px -5px 10px #55bac5;
+}
 
 .mySlides
 {
@@ -483,11 +493,11 @@ p:hover{
 	display: inline-block;
 }
 .imageFlight{
-	margin-top:40px;
+	/*margin-top:40px;*/
 }
 .FlightInfo
 {
-	font-size: 18px;
+	font-size: 20px;
 	margin-left: 91px;
 	width: 80%;
 	text-align: center;
@@ -521,12 +531,19 @@ p:hover{
 		height:300px;
 	}
 
+
+	.Notes{
+		color: white;
+		font-size: 23px;
+		text-align: center;
+	}
+
   @media (min-width:280px) and (max-width:400px)
   {
 	
 	.header
 	{
-		font-size: 32px;
+		font-size: 22px;
 	}
 	.caption{
 		font-style:italic;
@@ -539,23 +556,22 @@ p:hover{
 	.NavBar
 	{
 		width: 100%;
-		height: 23%;
-		margin: 10px 10px -88px -182px;
+		height: 112px;
+		margin: 10px;
 	}
-
+	
 	li {
 		width: 100%;
-		margin: -11px;
-		height:55px;
+		margin: -11px -11px -11px -51px;
+		height:57px;
 	}
 
 	li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 10px 152px;
+	padding: 10px;
 	text-decoration: none;
-	width:100%;
 	}
 	.PlanTrip
 	{		
@@ -605,19 +621,47 @@ p:hover{
 	.content{
 		margin-left:-8px;
 	}
-
+  
+	.HomeImg
+	{
+		height:165px;
+	}
+	
+	.NewPlaces
+{
+		text-align: center;
+		font-size: 30px;
+		color: white;
+		box-shadow: inset 5px 5px 10px #49d2bd, inset -5px -5px 10px #55bac5;
+}
+	
 	/*Delhi Page css media query*/
-	.Container{
+	.ContainerDelhi{
 		width:100%;
 		background-image: url(images/Wallpaper4.jpg);
 	}
-
+	
+	.headerDelhi{
+		font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	height: 83px;	
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
+	}
+	
+		
 	.LeftContainer
 	{
 		border: 2px solid white;
-		margin-top: 14px;
+		margin-top: 0px;
 		width: 100%;
-		height: 245px;
+		height: 240px;
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
@@ -626,7 +670,6 @@ p:hover{
 	.TreeMenu
 	{
 		width: 100%;
-		height: 248px;
 		color: white;
 	}
 
@@ -635,18 +678,19 @@ p:hover{
 		font-size: 16px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
-		width: 100%;
 		cursor: pointer;
+		width:100%;
 	}
 
 	.ListItems
 	{
 		font-size: 20px;
 		font-weight: bold;
-		height: 26px;
+		height: 25px;
 		text-align: center;
 		background-color:#3448A2;
 	}
+
 	.RightContainer
 	{
 		border: 2px solid white;
@@ -656,7 +700,6 @@ p:hover{
 		position: relative;
 		vertical-align: top;
 		margin-top: 14px;
-		overflow-x: hidden;
 	}
 
 	.Info-title
@@ -691,7 +734,7 @@ p:hover{
 	display: block;
 	margin: 20px;
 	border-radius: 25px;
-	font-size:18px;
+	font-size:14px;
 	font-weight:bold;
 	color:black;
   }
@@ -702,13 +745,125 @@ p:hover{
 	margin: 30px;
 	text-align: justify;
   }
+  
+  /*CSS for pictures page*/
+	.ContainerPics{
+	width:100%;
+	height:100%;
+	background-image:url(images/Wallpaper4.jpg);
+	}
+	
+	.DelhiContain{
+		width: 87%;
+    height: 280px;
+    cursor: pointer;
+    margin: 10px 10px 10px 22px;
+    display: inline-block;
+	}
+	.delhiPic
+	{
+		width: 86%;
+		height: 140px;
+		margin: 21px;
+	}
+	.ImageTitle{
+		font-size: 35px;
+    font-weight: bold;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 22px;
+    text-align: center;
+	}
+	
+	/*css for slides in pictures page*/
+
+	.w3-display-container
+	{
+		display: inline-block;
+		width: 100%;
+		height: 30%;
+		;
+	}
+	.mySlides{
+		width: 100%;
+		height: 300px;
+		margin:0px
+	}
+	.ArrowKeys{
+		display: inline-block;
+		vertical-align: top;
+		width: 52%;
+		height: 100px;
+		margin: 22px 70px 70px 90px;
+	}
+	
+	/*css for transport page*/
+	.imageBlock1{
+		height: 40%;
+		margin-top: 35px;
+		width: 100%;
+	}
+	.imageVertical{
+		height: 200px;
+		width: 74%;
+		display: inline-block;
+		margin: 25px 10px 0 45px;
+	}
+	
+	
+	.imageData{
+		width: 79%;
+		height: 175px;
+		display: inline-block;
+		font-size: 18px;
+		text-align: justify;
+		margin: 10px 10px 10px 40px;
+		vertical-align: top;
+	}
+	
+	/*css for climate page */
+	.row1{
+		wisth:100%;
+	}
+	.summer{
+		display: inline-block;
+		width: 100%;
+		margin: 0px 0px 0px 5px;
+	}
+	.imageSun{
+		width:75%;
+	}
+	.imageInfo{
+		font-size: 20px;
+		width: 90%;
+		text-align:center;
+		margin-left: 14px;
+	}
+	
+	/*css for bookings page:both flight and hotel */
+	.FlightInfo{
+		font-size: 18px;
+		width: 100%;
+		text-align: center;
+		margin-left:0px;
+	}
+	.imageBlockFlight{
+		width:100%;
+	}
+	.ReservationImage{
+		margin: 70px 0px 0px 10px;
+		display: inline-block;
+		width:100%;
+	}
   }
 
+  
   @media (min-width:401px) and (max-width:600px)
   {
 	.header
 	{
-		font-size: 35px;
+		font-size: 29px;
 	}
 	.caption{
 		font-style:italic;
@@ -720,13 +875,13 @@ p:hover{
 	.NavBar
 	{
 		width: 100%;
-		height: 26%;
-		margin: 10px 10px -95px -210px;
+		height: 105px;
+		margin: 10px;
 	}
 
 	li {
 		width: 100%;
-		margin: -11px;
+		margin: -11px -11px -11px -51px;
 		height:55px;
 	}
 
@@ -734,9 +889,9 @@ p:hover{
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 10px 182px;
+	padding: 10px;
 	text-decoration: none;
-	width:100%;
+	font-size:20px;
 	}
 
 	.PlanTrip
@@ -764,7 +919,13 @@ p:hover{
 		width:94%;
 		height:300px;
 	}
-
+	.NewPlaces
+{
+		text-align: center;
+		font-size: 30px;
+		color: white;
+		box-shadow: inset 5px 5px 10px #49d2bd, inset -5px -5px 10px #55bac5;
+}
 	.MultiImageDiv
 	{
 		margin:-157px 10px 10px 44px;
@@ -812,19 +973,37 @@ p:hover{
 		width:100%;
 	}
 	
-
+	.HomeImg
+	{
+		height:220px;
+	}
 	/*Delhi Page css media query*/
-	.Container{
+	.ContainerDelhi{
 		width:100%;
 		background-image: url(images/Wallpaper4.jpg);
 	}
+	
+	.headerDelhi{
+		font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	height: 83px;	
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
+	}
+	
 
 	.LeftContainer
 	{
 		border: 2px solid white;
 		margin-top: 14px;
 		width: 100%;
-		height: 245px;
+		height: 283px;
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
@@ -839,7 +1018,7 @@ p:hover{
 
 	.ListDiv
 	{
-		font-size: 16px;
+		font-size: 19px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
 		width: 100%;
@@ -848,9 +1027,9 @@ p:hover{
 
 	.ListItems
 	{
-		font-size: 20px;
+		font-size: 24px;
 		font-weight: bold;
-		height: 26px;
+		height: 29px;
 		text-align: center;
 		background-color:#3448A2;
 	}
@@ -909,14 +1088,127 @@ p:hover{
 	margin: 30px;
 	text-align: justify;
   }
-  }
+  
+  /*CSS for pictures page*/
+	.ContainerPics{
+	width:100%;
+	height:95%;
+	background-image:url(images/Wallpaper4.jpg);
+	}
+	
+	.DelhiContain{
+		width: 87%;
+    height: 280px;
+    cursor: pointer;
+    margin: 10px 10px 10px 22px;
+    display: inline-block;
+	}
+	.delhiPic
+	{
+		width: 87%;
+		height: 218px;
+		margin: 21px;
+	}
+	.ImageTitle{
+		font-size: 35px;
+    font-weight: bold;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 22px;
+    text-align: center;
+	}
+	
+	
+	/*css for slides in pictures page*/
+
+	.w3-display-container
+	{
+		display: inline-block;
+		width: 100%;
+		height: 30%;
+		;
+	}
+	.mySlides{
+		width: 100%;
+		height: 405px;
+		margin:0px
+	}
+	.ArrowKeys{
+		display: inline-block;
+		vertical-align: top;
+		width: 52%;
+		height: 100px;
+		margin: 21px 122px 122px 103px;
+	}
+	
+	/*css for transport page*/
+	.imageBlock1{
+		height: 40%;
+		margin-top: 35px;
+		width: 100%;
+	}
+	.imageVertical{
+		height: 200px;
+		width: 66%;
+		display: inline-block;
+		margin: 25px 10px 0 80px;
+	}
+	
+	
+	.imageData{
+		width: 79%;
+		height: 138px;
+		display: inline-block;
+		font-size: 18px;
+		text-align: justify;
+		margin: 10px 10px 10px 51px;
+		vertical-align: top;
+	}
+	/*css for climate page */
+	.row1{
+		wisth:100%;
+	}
+	.summer{
+		display: inline-block;
+		width: 100%;
+		margin: 0px 0px 0px 5px;
+	}
+	.imageSun{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 68%;
+	}
+	.imageInfo{
+		font-size: 20px;
+		width: 90%;
+		text-align:center;
+		margin-left: 14px;
+	}
+	/*css for bookings page:both flight and hotel */
+	.FlightInfo{
+		font-size: 18px;
+		width: 100%;
+		text-align: center;
+		margin-left:0px;
+	}
+	.imageBlockFlight{
+		width:100%;
+	}
+	.ReservationImage{
+		margin-top:60px;
+		display: block;
+		width:50%;
+	}
+ }
 
   @media only screen 
-and (min-device-width : 601px) 
-and (max-device-width : 800px) {
+and (min-width : 601px) 
+and (max-width : 800px) {
 	.header
 	{
-		font-size: 40px;
+		font-size: 33px;
 	}
 	.caption{
 		font-style:italic;
@@ -928,23 +1220,25 @@ and (max-device-width : 800px) {
 	.NavBar
 	{
 		width: 100%;
-		height: 26%;
-		margin: 10px 10px -95px -210px;
+		height: 32px;
+		margin: 7px;
 	}
 
 	li {
-		width: 100%;
-		margin: -11px;
-		height:55px;
+		float: left;
+		width: 41%;
+		margin: -11px -11px -11px -51px;
+		height: 44px;
+		background-color: #3448A2;
+		text-align: center;
 	}
 
 	li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 10px 182px;
+	padding: 10px;
 	text-decoration: none;
-	width:100%;
 	}
 
 	.PlanTrip
@@ -967,6 +1261,13 @@ and (max-device-width : 800px) {
 		margin:0px 10px 10px 37px;
 		
 	}
+	.NewPlaces
+{
+		text-align: center;
+		font-size: 35px;
+		color: white;
+		box-shadow: inset 5px 5px 10px #49d2bd, inset -5px -5px 10px #55bac5;
+}
 	.BigImage
 	{
 		width:94%;
@@ -1020,10 +1321,30 @@ and (max-device-width : 800px) {
 		list-style-type: none;
 		width:100%;
 	}
+	
+  .HomeImg
+	{
+		height:300px;
+	}
+	
 	/*Delhi Page css media query*/
-	.Container{
+	.ContainerDelhi{
 		width:100%;
 		background-image: url(images/Wallpaper4.jpg);
+	}
+	
+	.headerDelhi{
+		font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	height: 83px;	
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
 	}
 
 	.LeftContainer
@@ -1031,7 +1352,7 @@ and (max-device-width : 800px) {
 		border: 2px solid white;
 		margin-top: 14px;
 		width: 100%;
-		height: 245px;
+		height: 325px;
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
@@ -1046,7 +1367,7 @@ and (max-device-width : 800px) {
 
 	.ListDiv
 	{
-		font-size: 16px;
+		font-size: 21px;
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
 		width: 100%;
@@ -1055,9 +1376,9 @@ and (max-device-width : 800px) {
 
 	.ListItems
 	{
-		font-size: 20px;
+		font-size: 23px;
 		font-weight: bold;
-		height: 26px;
+		height: 36px;
 		text-align: center;
 		background-color:#3448A2;
 	}
@@ -1101,18 +1422,7 @@ and (max-device-width : 800px) {
 		margin-top:-20px;
 	}
 
-	.ListItemsPlace
-  {
-	border: 2px solid white;
-	background-color: #1ea295;
-	height: 45px;
-	display: block;
-	margin: 20px;
-	border-radius: 25px;
-	font-size:18px;
-	font-weight:bold;
-	color:black;
-  }
+
 
   .listElementPlace
   {
@@ -1120,18 +1430,132 @@ and (max-device-width : 800px) {
 	margin: 30px;
 	text-align: justify;
   }
+  /*CSS for pictures page*/
+	.ContainerPics{
+	width:100%;
+	height:87%;
+	background-image:url(images/Wallpaper4.jpg);
+	}
+	
+	.DelhiContain{
+		width: 91%;
+    height: 292px;
+    cursor: pointer;
+    margin: 10px 10px 10px 22px;
+    display: inline-block;
+	}
+	.delhiPic
+	{
+		width: 80%;
+    height: 284px;
+    margin: 22px 22px 23px 74px;
+	}
+	.ImageTitle{
+		font-size: 43px;
+    font-weight: bold;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 22px;
+    text-align: center;
+	}
+	
+	/*css for slides in pictures page*/
+
+	.w3-display-container
+	{
+		display: inline-block;
+		width: 100%;
+		height: 30%;
+		;
+	}
+	.mySlides{
+		width: 100%;
+		height: 405px;
+		margin:0px
+	}
+	.ArrowKeys{
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		height: 100px;
+		margin: 104px 170px 170px 230px;
+	}
+	/*css for transport page*/
+	.imageBlock1{
+		height: 40%;
+		margin-top: 35px;
+		width: 100%;
+	}
+	.imageVertical{
+		height: 200px;
+		width: 66%;
+		display: inline-block;
+		margin: 25px 10px 0 176px;
+	}
+	
+	
+	.imageData{
+		width: 79%;
+		height: 94px;
+		display: inline-block;
+		font-size: 18px;
+		text-align: justify;
+		margin: 10px 10px 10px 65px;
+		vertical-align: top;
+	}
+	/*css for climate page */
+	.row1{
+		wisth:100%;
+	}
+	.summer{
+		display: inline-block;
+		width: 100%;
+		margin: 0px 0px 0px 5px;
+	}
+	.imageSun{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 35%;
+	}
+	.imageInfo{
+		font-size: 20px;
+		width: 90%;
+		text-align:center;
+		margin-left: 14px;
+	}
+	/*css for bookings page:both flight and hotel */
+	.FlightInfo{
+		font-size: 18px;
+		width: 100%;
+		text-align: center;
+		margin-left:0px;
+	}
+	.imageBlockFlight{
+		width:100%;
+	}
+	.ReservationImage{
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 60px;
+	}
   }
+  
+  
   @media only screen 
-and (min-device-width : 801px) 
-and (max-device-width : 950px) 
+and (min-width : 801px) 
+and (max-width : 960px) 
   {
 
 
 	.NavBar
 	{
 		width: 100%;
-		height: 26%;
-		margin: 0px 0px -175px -12px;
+		height: 30px;
+		margin: 10px;
 	}
 
 	.NavBarDelhi
@@ -1142,20 +1566,17 @@ and (max-device-width : 950px)
 			width:100%;
 	}
 	li {
-		width: 301px;
-		height:55px;
+		width: 39%;
+		height:45px;
+		margin:-11px -11px -11px -51px;
 	}
 
-	.ListDelhi {
-		width: 34%;
-		height:55px;
-	}
 
 	li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 13px 46px 10px 58px;
+	padding: 10px;
 	text-decoration: none;
 	}
 
@@ -1212,6 +1633,13 @@ and (max-device-width : 950px)
 		font-size: 45px;
 	}
 
+	.NewPlaces
+{
+		text-align: center;
+		font-size: 40px;
+		color: white;
+		box-shadow: inset 5px 5px 10px #49d2bd, inset -5px -5px 10px #55bac5;
+}
 	.BtnContainer
 	{
 		width: 300px;
@@ -1232,13 +1660,39 @@ and (max-device-width : 950px)
 		list-style-type: none;
 		width:100%;
 	}
-
+	
+	.HomeImg
+	{
+		height:358px;
+	}
+	
+	
+	/*Delhi Page css media query*/
+	.ContainerDelhi{
+		width:100%;
+		height:86%;
+		background-image: url(images/Wallpaper4.jpg);
+	}
+	
+	.headerDelhi{
+		font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	height: 83px;	
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
+	}
 	.LeftContainer
 	{
 		border: 2px solid white;
 		margin-top: 14px;
 		width: 30%;
-		height: 455px;
+		height: 97%;
 		display: inline-block;
 		vertical-align: top;
 		position: relative;
@@ -1247,7 +1701,8 @@ and (max-device-width : 950px)
 	.RightContainer
 	{
 		border: 2px solid white;
-		width: 65%;
+		width: 68%;
+		height:97%;
 		display: inline-block;
 		position: relative;
 		vertical-align: top;
@@ -1256,7 +1711,7 @@ and (max-device-width : 950px)
 	}
 	.TreeMenu
 	{
-		height:300px;
+		width:100%;
 		color:white;
 	}
 
@@ -1266,7 +1721,7 @@ and (max-device-width : 950px)
 		-moz-box-shadow: inset 0 0 10px #000000;
 		-webkit-box-shadow: inset 0 0 10px #000000;
 		box-shadow: inset 0px 40px 0px #3448A2;
-		width: 85%;
+		width: 100%;
 		cursor: pointer;
 	}
 
@@ -1274,6 +1729,7 @@ and (max-device-width : 950px)
 	{
 		font-size:21px;
 		font-weight:bold;
+		text-align:center;
 	}
 	
 	.imageBlackPlace
@@ -1293,200 +1749,967 @@ and (max-device-width : 950px)
 		display:inline-block;
 		margin: 20px;
 	}
+	
+	.ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+	width:50%;
+  }
 	.PlaceImage
 	{
 		width:235px;
 		height:217px;
 		margin-top:-20px;
 	}
-  }
-
-  /* only for home image */
-  @media (min-width:280px) and (max-width:400px)
-  {
-	.HomeImg
-	{
-		height:32%;
+	/*CSS for pictures page*/
+	.ContainerPics{
+	width:100%;
+	height:86%;
+	background-image:url(images/Wallpaper4.jpg);
 	}
-  }
-
-  @media (min-width:400px) and (max-width:500px)
-  {
-	.HomeImg
-	{
-		height:40%;
-	}
-  }
-
-  @media (min-width:500px) and (max-width:650px)
-  {
-	.HomeImg
-	{
-		height:50%;
-	}
-  }
-
-  @media (min-width:651px) and (max-width:850px)
-  {
-	.HomeImg
-	{
-		height:65%;
-	}
-  }
-
-  @media (min-width:851px) and (max-width:1000px)
-  {
-	.HomeImg
-	{
-		height:75%;
-	}
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /*@media (min-width:280px){
-	.header
-	{
-		font-size: 23px;
-		font-weight: bold;
-		text-align: center;
-		height: 83px;	
-		font-family: Arial, Helvetica, sans-serif;
-		-moz-box-shadow:    inset 0 0 10px #000000;
-	   -webkit-box-shadow: inset 0 0 10px #000000;
-	   box-shadow:         inset 0 0 10px #000000;
-	   background-image:url(images/Wallpaper4.jpg);
-		color:white;
-		height:65px;
-	}
-	.caption{
-		font-style:italic;
-		margin:-13px 0 0 0;
-		text-align:center;
-		font-size:16px;
-	}
-	.HomeImg
-{
-	height:27%;
-	background-image:url(images/indiaCulture.jpg);
-	background-size:cover;
-	background-repeat:no-repeat;
-	display: -webkit-flex;
-	display: flex;  
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
 	
-}
+	
+	.DelhiContain{
+		width: 45%;;
+	}
+	.delhiPic{
+	width: 83%;
+    height: 300px;
+    margin: 32px;
+	}
+	
+	/*css for slides in pictures page*/
 
-li {
-	width: 280px;
-	margin: -10px;
-}
+	.w3-display-container
+	{
+		display: inline-block;
+		width: 100%;
+		height: 30%;
+		;
+	}
+	.mySlides{
+		width: 100%;
+		height: 500px;
+		margin:0px
+	}
+	.ArrowKeys{
+		display: inline-block;
+		vertical-align: top;
+		width: 36%;
+		height: 100px;
+		margin: 145px 170px 170px 284px;
+	}
+	/*css for transport page*/
+	.imageBlock1{
+		height: 55%;
+		margin-top: 35px;
+		width: 100%;
+	}
+	.imageVertical{
+		height: 200px;
+		width: 66%;
+		display: inline-block;
+		margin: 25px 10px 0 176px;
+	}
+	
+	
+	.imageData{
+		width: 79%;
+		height: 94px;
+		display: inline-block;
+		font-size: 18px;
+		text-align: justify;
+		margin: 10px 10px 10px 65px;
+		vertical-align: top;
+	}
+	/*css for climate page */
+	.row1{
+		wisth:100%;
+	}
+	.summer{
+		display: inline-block;
+		width: 100%;
+		margin: 0px 0px 0px 5px;
+	}
+	.imageSun{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	.imageInfo{
+		font-size: 20px;
+		width: 90%;
+		text-align:center;
+	}
+	/*css for bookings page:both flight and hotel */
+	.FlightInfo{
+		font-size: 18px;
+		width: 100%;
+		text-align: center;
+		margin-left:0px;
+	}
+	.imageBlockFlight{
+		width:100%;
+	}
+	.ReservationImage{
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 60px;
+	}
+  }
+  
 
-.NavBar
-{
-	width: 100%;
-	height: 25%;
-	margin: 10px 10px 3px -28px;
-}
+ @media only screen 
+and (min-width : 961px) 
+and (max-width : 1100px) 
+  {
 
-li a {
+
+	.NavBar
+	{
+		width: 100%;
+		height: 29px;
+		margin: 10px;
+	}
+
+	.NavBarDelhi
+	{
+		height: 8%;
+	}
+	.ul{
+			width:100%;
+	}
+	li {
+		width: 39%;
+		height:45px;
+		margin:-11px -11px -11px -51px;
+	}
+
+	li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 18px 20px;
+	padding: 10px;
 	text-decoration: none;
+	}
+	
+	.rowImage{
+		width:207px;
+		height:194px;
+	}
+	.HomeImg
+	{
+		height:415px;
+	}
+	/*Delhi Page css media query*/
+	.ContainerDelhi{
+		width:100%;
+		height:86%;
+		background-image: url(images/Wallpaper4.jpg);
+	}
+	.NewPlaces
+{
+		text-align: center;
+		font-size: 45px;
+		color: white;
+		box-shadow: inset 5px 5px 10px #49d2bd, inset -5px -5px 10px #55bac5;
+}
+	.headerDelhi{
+		font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	height: 83px;	
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
+	}
+	.LeftContainer
+	{
+		border: 2px solid white;
+		margin-top: 14px;
+		width: 30%;
+		height: 97%;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
+
+	.RightContainer
+	{
+		border: 2px solid white;
+		width: 68%;
+		height:97%;
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		margin-top: 14px;
+		overflow-x: hidden;
+	}
+	.TreeMenu
+	{
+		width:100%;
+		color:white;
+	}
+
+	.ListDiv
+	{
+		font-size: 19px;
+		-moz-box-shadow: inset 0 0 10px #000000;
+		-webkit-box-shadow: inset 0 0 10px #000000;
+		box-shadow: inset 0px 40px 0px #3448A2;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.ListItems
+	{
+		font-size:21px;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	.imageBlackPlace
+	{
+		margin-top:-20px;
+	}
+
+	.imageVerticalPlace1
+	{
+		width: 38%;
+		display: inline-block;
+		margin: 20px 20px 20px 25px;
+	}
+	.imageVerticalPlace2
+	{
+		width:40%;
+		display:inline-block;
+		margin: 20px;
+	}
+	
+	.ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+	width:50%;
+  }
+	.PlaceImage
+	{
+		width:278px;
+		height:217px;
+		margin-top:-20px;
+	}
+	/*CSS for pictures page*/
+	.ContainerPics{
 	width:100%;
-}
-  }
-/*@media (min-width:400px){
-	.header
-	{
-		font-size: 26px;
+	height:86%;
+	background-image:url(images/Wallpaper4.jpg);
 	}
-	.caption{
-		font-style:italic;
-		margin:-26px 0 0 0;
-		text-align:center;
-		font-size:16px;
-	}
-	.HomeImg
-{
-	height:45%;
 	
-}
-}
+	
+	.DelhiContain{
+		width: 45%;;
+	}
+	.delhiPic{
+	width: 86%;
+    height: 330px;
+    margin: 32px;
+	}
+	
+	/*css for slides in pictures page*/
 
-/*@media (min-width:612px){
-	.header
+	.w3-display-container
 	{
-		font-size: 26px;
+		display: inline-block;
+		width: 100%;
+		height: 30%;
+		;
 	}
-	.caption{
-		font-style:italic;
-		margin:-26px 0 0 0;
+	.mySlides{
+		width: 100%;
+		height: 500px;
+		margin:0px
+	}
+	.ArrowKeys{
+		display: inline-block;
+		vertical-align: top;
+		width: 36%;
+		height: 100px;
+		margin: 145px 170px 170px 335px;
+	}
+	/*css for transport page*/
+	
+	.imageData{
+		width: 37%;
+		height: 175px;
+		display: inline-block;
+		font-size: 18px;
+		text-align: justify;
+		margin: 10px 10px 10px 93px;
+		vertical-align: top;
+	}
+	/*css for climate page */
+	.row1{
+		wisth:100%;
+	}
+	.summer{
+		display: inline-block;
+		width: 100%;
+		margin: 0px 0px 0px 5px;
+	}
+	.imageSun{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	.imageInfo{
+		font-size: 20px;
+		width: 90%;
 		text-align:center;
-		font-size:16px;
 	}
-	.HomeImg
-{
-	height:60%;
-	
-}
-	
+	/*css for bookings page:both flight and hotel */
+	.FlightInfo{
+		font-size: 18px;
+		width: 100%;
+		text-align: center;
+		margin-left:0px;
+	}
+	.imageBlockFlight{
+		width:100%;
+	}
+	.ReservationImage{
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 60px;
+	}
   }
-  /*@media (min-width:860px){
-	.header
+  @media only screen 
+and (min-width : 1101px) 
+and (max-width : 1328px) 
+  {
+	.NavBar
 	{
-		font-size: 32px;
+		width: 100%;
+		height: 25px;
+		margin: 10px;
 	}
-	.caption{
-		font-style:italic;
-		margin:-26px 0 0 0;
-		text-align:center;
-		font-size:16px;
+
+	.NavBarDelhi
+	{
+		height: 8%;
+	}
+	.ul{
+			width:100%;
+	}
+	li {
+		width: 38%;
+		height:41px;
+		margin:-11px -11px -11px -51px;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size:18px;
+	}
+	
+	.rowImage{
+		width:254px;
+		height:194px;
 	}
 	.HomeImg
-{
-	height:70%;
+	{
+		height:458px;
+	}
 	
-}
+		/*Delhi Page css media query*/
+	.ContainerDelhi{
+		width:100%;
+		height:86%;
+		background-image: url(images/Wallpaper4.jpg);
+	}
+	
+	.headerDelhi{
+		font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	height: 83px;	
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
+	}
+	.LeftContainer
+	{
+		border: 2px solid white;
+		margin-top: 14px;
+		width: 30%;
+		height: 97%;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
+
+	.RightContainer
+	{
+		border: 2px solid white;
+		width: 68%;
+		height:97%;
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		margin-top: 14px;
+		overflow-x: hidden;
+	}
+	.TreeMenu
+	{
+		width:100%;
+		color:white;
+	}
+
+	.ListDiv
+	{
+		font-size: 22px;
+		-moz-box-shadow: inset 0 0 10px #000000;
+		-webkit-box-shadow: inset 0 0 10px #000000;
+		box-shadow: inset 0px 40px 0px #3448A2;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.ListItems
+	{
+		font-size:26px;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	.imageBlackPlace
+	{
+		margin-top:-20px;
+	}
+
+	.imageVerticalPlace1
+	{
+		width: 38%;
+		display: inline-block;
+		margin: 20px 20px 20px 25px;
+	}
+	.ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+	width:50%;
+  }
+	.imageVerticalPlace2
+	{
+		width:40%;
+		display:inline-block;
+		margin: 20px;
+	}
+	.PlaceImage
+	{
+		width:316px;
+		height:217px;
+		margin-top:-20px;
+	}
+	
+	/*CSS for pictures page*/
+	.ContainerPics{
+	width:100%;
+	height:118%;
+	background-image:url(images/Wallpaper4.jpg);
+	}
+	
+	
+	.DelhiContain{
+		width: 45%;;
+	}
+	.delhiPic{
+	width: 86%;
+    height: 360px;
+    margin: 32px;
+	}
+	.ImageTitle{
+		margin:0px;
+	}
+	/*css for slides in pictures page*/
+
+	.w3-display-container
+	{
+		display: inline-block;
+		width: 100%;
+		height: 30%;
+		;
+	}
+	.mySlides{
+		width: 65%;
+		height: 400px;
+		margin-left: 194px;
+	}
+	.ArrowKeys{
+		display: inline-block;
+		vertical-align: top;
+		width: 25%;
+		height: 88px;
+		margin: 248px 170px 170px 484px;
+	}
+	/*css for transport page*/
+	
+	.imageData{
+		width: 38%;
+		height: 175px;
+		display: inline-block;
+		font-size: 18px;
+		text-align: justify;
+		margin: 10px 10px 10px 103px;
+		vertical-align: top;
+	}
+	
+	/*css for bookings page:both flight and hotel*/
+	.ReservationImage
+	{
+		margin:80px 0px 0px 63px;
+		display:inline-block;
+	}
+  }
+  
+  @media only screen 
+and (min-width : 1329px) 
+and (max-width : 1689px) 
+  {
+	.NavBar
+	{
+		width: 100%;
+		height: 25px;
+		margin: 10px;
+	}
+
+	.NavBarDelhi
+	{
+		height: 8%;
+	}
+	.ul{
+			width:100%;
+	}
+	li {
+		width: 37%;
+		height:41px;
+		margin:-11px -11px -11px -51px;
+	}
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size:20px;
+	}
+	
+	.rowImage{
+		width:315px;
+		height:194px;
+	}
+	
+	.HomeImg
+	{
+		height:521px;
+	}
+		/*Delhi Page css media query*/
+	.ContainerDelhi{
+		width:100%;
+		height:86%;
+		background-image: url(images/Wallpaper4.jpg);
+	}
+	
+	.headerDelhi{
+		font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	height: 83px;	
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
+	}
+	.LeftContainer
+	{
+		border: 2px solid white;
+		margin-top: 14px;
+		width: 30%;
+		height: 97%;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
+
+	.RightContainer
+	{
+		border: 2px solid white;
+		width: 68%;
+		height:97%;
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		margin-top: 14px;
+		overflow-x: hidden;
+	}
+	.TreeMenu
+	{
+		width:100%;
+		color:white;
+	}
+
+	.ListDiv
+	{
+		font-size: 22px;
+		-moz-box-shadow: inset 0 0 10px #000000;
+		-webkit-box-shadow: inset 0 0 10px #000000;
+		box-shadow: inset 0px 40px 0px #3448A2;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.ListItems
+	{
+		font-size:26px;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	.imageBlackPlace
+	{
+		margin-top:-20px;
+	}
+
+	.imageVerticalPlace1
+	{
+		width: 38%;
+		display: inline-block;
+		margin: 20px 20px 20px 25px;
+	}
+	.imageVerticalPlace2
+	{
+		width:40%;
+		display:inline-block;
+		margin: 20px;
+	}
+	.ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+	width:50%;
+  }
+	.PlaceImage
+	{
+		width:372px;
+		height:230px;
+		margin-top:-20px;
+	}
+	/*CSS for pictures page*/
+	.ContainerPics{
+	width:100%;
+	height:86%;
+	background-image:url(images/Wallpaper4.jpg);
+	}
+	
+	
+	.DelhiContain{
+		width: 30%;;
+	}
+	.delhiPic{
+	width: 86%;
+    height: 300px;
+    margin: 32px;
+	}
+	
+	/*css for slides in pictures page*/
+
+	.w3-display-container
+	{
+		display: inline-block;
+		width: 100%;
+		height: 30%;
+		;
+	}
+	.mySlides{
+		width: 100%;
+		height: 562px;
+		margin:0px
+	}
+	.ArrowKeys{
+		display: inline-block;
+		vertical-align: top;
+		width: 28%;
+		height: 100px;
+		margin: 116px 170px 170px 597px;;
+	}
+	/*css for transport page*/
+	
+	.imageData{
+		width: 45%;
+		height: 175px;
+		display: inline-block;
+		font-size: 20px;
+		text-align: justify;
+		margin: 10px 10px 10px 97px;
+		vertical-align: top;
+	}
+	/*css for bookings page:both flight and hotel*/
+	.ReservationImage
+	{
+		margin:80px 0px 0px 135px;
+		display:inline-block;
+	}
+  }
+  
+  @media only screen 
+and (min-width : 1690px) 
+and (max-width : 1980px) 
+  {
+	.NavBar
+	{
+		width: 100%;
+		height: 29px;
+		margin: 10px;
+	}
+
+	.NavBarDelhi
+	{
+		height: 8%;
+	}
+	.ul{
+			width:100%;
+	}
+	li {
+		width: 36%;
+		height:45px;
+		margin:-11px -11px -11px -51px;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size:20px;
+	}
+	
+	.rowImage{
+		width:345px;
+		height:194px;
+	}
+	.HomeImg
+	{
+		height:812px;
+	}
+		/*Delhi Page css media query*/
+	.ContainerDelhi{
+		width:100%;
+		height:86%;
+		background-image: url(images/Wallpaper4.jpg);
+	}
+	
+	.headerDelhi{
+		font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	height: 83px;	
+	font-family: Arial, Helvetica, sans-serif;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+   background-image:url(images/Wallpaper4.jpg);
+	color:white;
+	height:65px;
+	}
+	.LeftContainer
+	{
+		border: 2px solid white;
+		margin-top: 14px;
+		width: 30%;
+		height: 97%;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
+
+	.RightContainer
+	{
+		border: 2px solid white;
+		width: 68%;
+		height:97%;
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		margin-top: 14px;
+		overflow-x: hidden;
+	}
+	.TreeMenu
+	{
+		width:100%;
+		color:white;
+	}
+
+	.ListDiv
+	{
+		font-size: 24px;
+		-moz-box-shadow: inset 0 0 10px #000000;
+		-webkit-box-shadow: inset 0 0 10px #000000;
+		box-shadow: inset 0px 40px 0px #3448A2;
+		width: 100%;
+		cursor: pointer;
+	}
+
+	.ListItems
+	{
+		font-size:30px;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	.imageBlackPlace
+	{
+		margin-top:-20px;
+	}
+
+	.imageVerticalPlace1
+	{
+		width: 38%;
+		display: inline-block;
+		margin: 20px 20px 20px 25px;
+	}
+	.imageVerticalPlace2
+	{
+		width:40%;
+		display:inline-block;
+		margin: 20px;
+	}
+	.ListItemsPlace
+  {
+	border: 2px solid white;
+	background-color: #1ea295;
+	height: 45px;
+	display: block;
+	margin: 20px;
+	border-radius: 25px;
+	font-size:18px;
+	font-weight:bold;
+	color:black;
+	width:50%;
+  }
+	.PlaceImage
+	{
+		width:400px;
+		height:260px;
+		margin-top:-20px;
+	}
+	/*CSS for pictures page*/
+	.ContainerPics{
+	width:100%;
+	height:86%;
+	background-image:url(images/Wallpaper4.jpg);
+	}
+	
+	
+	.DelhiContain{
+		width: 30%;;
+	}
+	.delhiPic{
+	width: 86%;
+    height: 360px;
+    margin: 32px;
+	}
+	
+	/*css for slides in pictures page*/
+
+	.w3-display-container
+	{
+		display: inline-block;
+		width: 100%;
+		height: 30%;
+		;
+	}
+	.mySlides{
+		width: 100%;
+		height: 742px;
+		margin:0px
+	}
+	.ArrowKeys{
+		display: inline-block;
+		vertical-align: top;
+		width: 20%;
+		height: 100px;
+		margin: 8px 170px 170px 764px;
+	}
+	
+	/*css for transport page*/
+	
+	.imageData{
+		width: 45%;
+		height: 175px;
+		display: inline-block;
+		font-size: 22px;
+		text-align: justify;
+		margin: 10px 10px 10px 66px;
+		vertical-align: top;
+	}
+	/*css for bookings page:both flight and hotel*/
+	.ReservationImage
+	{
+		margin:80px 0px 0px 193px;
+		display:inline-block;
+	}
   }
 
-  @media (min-width:1026px){
-	.header
-	{
-		font-size: 35px;
-	}
-	.caption{
-		font-style:italic;
-		margin:-26px 0 0 0;
-		text-align:center;
-		font-size:18px;
-	}
-	.HomeImg
-{
-	height:80%;
-	
-}
-}*/
+
+
+

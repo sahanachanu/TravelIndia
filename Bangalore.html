@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="cities.js"></script>
+<title> This is my first webpage </title>
+</head>
+
+<body>
+
+<!--<div class="CityTitleDiv">-->
+<div class="headerDelhi">Bengaluru</div>
+<!--</div> -->
+<div class="NavBar">
+<ul>
+        <li class="ListDelhi"><a href="WEBPAGE.html" >Home</a></li>
+        <li class="ListDelhi"><a href="PicsDashboard.html">Pictures</a></li>
+        <li class="ListDelhi"><a href="interact.html">Coming Soon</a></li>
+</ul>
+</div>
+<!--<div class="flex-container">-->
+<div class="ContainerDelhi">
+<div class="LeftContainer">
+  <div class="TreeMenu">
+  <div class="ListDiv">
+      <div class="ListItems">Initial Concerns</div>
+        <div class="ChildElements">
+          <p class="active" id="selected1" onClick="PlacesInfo();">Places - must visit</p>
+          <p  id="selected2" onClick="TransportInfo();">Experience local transport...</p>
+          <p  id="selected3" onClick="ClimateInfo();">Check for Climate...</p>
+
+        </div>
+    </div>
+    <div class="ListDiv">
+        <div class="ListItems">Why wait? Lets Book</div>
+          <div class="ChildElements">
+            <p id="selected5" onCLick="FlightInfo();">Book Flights</p>
+            <p id="selected6" onCLick="HotelInfo();">Book Hotels</p>
+          </div>
+      </div>
+  </ul>
+  </div>
+</div>
+<div class="RightContainer">
+<div id="PlacesDashBoard">
+        <div class="Info-title">Places- Must Visit</div>
+
+        <!--Bangalore Palace-->
+        <div class="imageBlockPlace">
+                <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/BangalorePalace.jpg" /></div>
+                <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/BangalorePalace2.jpeg"/></div>
+                <div class="imageDataPlace">	<div class="SubTitleName"> Bangalore Palace </div>
+                <div class="TreeMenuPlace">
+                    <!--Tree view for why visit-->
+                    <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1>This late 19th-century structure was used by both British officers 
+							and Indian royalty as a home and a place of business. It was the private residence of the royal Wodeyar family. 
+							The palace grounds are a popular venue for rock concerts and other music events..</tab1></p>
+                          </div>
+                      </div>
+        
+                      <!--Tree view for what attracts-->
+                      <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">
+                                    <tab1>The palace features mainly wooden interiors and is surrounded by gardens. The architectural style is a mix of Tudor and 
+									Scottish Gothic with many physical elements inside imported from Britain.
+									Entering the palace on the first floor, note the distinctly Tudor interior design. Wooden beams, relief paintings and neo-classic floral 
+									carvings adorn the walls.</tab1></br><tab1>On the second floor, go into Durbar Hall, where the king once addressed his noble assembly. This bright interior 
+									is given a royal aura by columns, chandeliers and ornamental mirrors.Before heading back downstairs, explore rooms filled with works of art. 
+									Of the painting collection, several Greek and Dutch pieces have been here since the 19th century.</tab1>
+                            </p>
+                  
+                          </div>
+                      </div>
+        
+                      <!-- Tree view for entry fee -->
+                <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">Foreign Tourist: Rs.460/-<br> 
+                                India Citizens: Rs.230-<br>
+
+                                Bangalore Palace is open from <b>10am.to 5pm.</b> Usually people spend 1 to 2 hours at this place.
+                                </p>
+                          </div>
+                      </div>
+                </div>
+                </div>
+        </div>
+
+        <!--Isckon temple-->
+        <div class="imageBlockPlace">
+        <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/Isckon1.jpg"/></div>
+        <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/Isckon2.jpg" /></div>
+        <div class="imageDataPlace">	<div class="SubTitleName"> Isckon Temple </div>
+        <div class="TreeMenuPlace">
+            <!--Tree view for why visit-->
+            <div class="ListDivPlace">
+                <span class="ListItemsPlace">
+                  <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
+                  <div class="ChildElementsPlace" style="display:none">
+                    <p class="listElementPlace"><tab1>The International Society for Krishna Consciousness (ISKCON) Temple was opened in 1997 
+					and is visited by thousands of devotees every day. It is one of the largest temples of its kind in the world. This large and 
+					lavishly decorated temple complex dedicated to a Hindu god. Marvel at golden shrines, murals and hundreds of statues.</tab1></p>
+                  </div>
+              </div>
+
+              <!--Tree view for what attracts-->
+              <div class="ListDivPlace">
+                <span class="ListItemsPlace">
+                  <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
+                  <div class="ChildElementsPlace" style="display:none">
+                    <p class="listElementPlace"> The architecture of Bangalore's ISKCON temple is a magnificent presence and is credited to being the largest 
+					ISKCON complexes in the world.<br><br>
+                        
+                        The most distinctive feature of this temple is its gold plated flag post which stands at a height of 17 metres, followed by its gilded 
+						Kalash Shikharas which is at a height of 8.5 metres. An example of neo - classical style of architecture, the ISKCON temple is embellished 
+						with the most exquisite style of stone carvings<br><br>
+                        
+                       The ISKCON temple complex has an expansive verdant garden and an amphitheatre for conducting various cultural programmes as well.
+					   </p>
+          
+                  </div>
+              </div>
+
+              <!-- entry fee -->
+        <div class="ListDivPlace">
+                <span class="ListItemsPlace">
+                  <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time</span>
+                  <div class="ChildElementsPlace" style="display:none">
+                    <p class="listElementPlace">Timings: 7.15am. to 1.00 pm. and 4pm. to 8.20pm., Open on all days.</br></br>
+					There is No Entry Fee. Usually people spend one hour at this place(hoping there is no queue for darshan)</p>
+                  </div>
+              </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- LalBagh-->
+        <div class="imageBlockPlace">
+                <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/LalBhag.jpg" /></div>
+                <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/LalBhag2.jpg"/></div>
+                <div class="imageDataPlace">	<div class="SubTitleName"> Lal Bagh </div>
+                <div class="TreeMenuPlace">
+                    <!--Tree view for why visit-->
+                    <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1>Nature lovers should not miss this!!Spread over 96 hectares of landscaped 
+							terrain, the expansive Lalbagh Botanical Gardens were laid out in 1760 by the famous ruler Hyder Ali. As well 
+							as amazing centuries-old trees it claims to have the world’s most diverse species of plants. Try to visit in 
+							the early morning for the bird chorus.</tab1></p>
+                          </div>
+                      </div>
+        
+                      <!--Tree view for what attracts-->
+                      <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">
+                                    <tab1>Glass House, Lal Bagh Rock, Band Stand, Lalbagh Lake, Maharaja Statue and more. The garden is beautifully
+									designed, with lawns, flowerbeds, lotus pools and fountains adding to its splendor. Flower extravaganzas are held
+									every year in the botanical gardens, as a part of the Independence Day and Republic Day celebrations. Lalbagh Botanical
+									Garden is an ideal place for family, kids, lovers & friends.</tab1>
+                            </p>
+                  
+                          </div>
+                      </div>
+        
+                      <!-- Tree view for entry fee -->
+                <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">Entry fee: Rs.10 </br></br>Timings: 6am. to 7pm.</br></br>Usually people spend 1 to 2 hours at this place
+							
+                            </p>
+                          </div>
+                      </div>
+                </div>
+                </div>
+        </div>
+
+        <!--Mysore Palace -->
+        <div class="imageBlockPlace">
+                <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/MysorePalace.jpg" /></div>
+                <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/MysorePalace2.jpg" /></div>
+                <div class="imageDataPlace">	<div class="SubTitleName"> Mysore Palace </div>
+                <div class="TreeMenuPlace">
+                    <!--Tree view for why visit-->
+                    <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1>Mysore Palace also known as Amba Vilas Palace located at the heart of Mysore city 
+							is the most prominent tourist destination of Mysore that attracts millions of visitors round the year. This historical 
+							palace housed within the Old Fort facing the Chamunda Hills stands as the official residence of the Wadiyar dynasty who 
+							ruled the Kingdom of Mysore from 1399 to 1950. Displaying Indo-Saracenic style of architecture, this sprawling building 
+							is a replacement of the old wooden building destroyed by fire in late 19th century. Commissioned by the Krishnarajendra Wadiyar IV, 
+							this palatial building comprises of two durbar halls, a number of colossal courtyards, buildings and strikingly beautiful gardens that 
+							speak volumes of the splendour of the Wadiyars.</tab1></p>
+                          </div>
+                      </div>
+        
+                      <!--Tree view for what attracts-->
+                      <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">
+                                 <tab1>The Mysore Palace, the seat of the famous Wodeyar Maharaja's of the Mysore Kingdom today stands as one of the precious possessions 
+								 of the nation which is presently converted into a museum. The strikingly embellished and finely chiselled doors lead one to richly and elegantly 
+								 ornate rooms. The exquisitely columned Durbar Hall, the solid silver doors, the finely incised mahogany ceilings and many other embellishments of the 
+								 palace make one spellbound while giving an idea of the exuberant lifestyle of the royals. Displays in the palace include royal dresses, souvenirs, musical 
+								 instruments and weapons used by the Wodeyars. An array of superb paintings including the ones illustrating 8 manifestations of Goddess Shakthi as also a 
+								 masterpiece by famed artist Raja Ravi Verma finds place in the palace.</tab1>
+                            </p>
+                  
+                          </div>
+                      </div>
+        
+                      <!-- Tree view for entry fee -->
+                <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time spent</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1>Sound and light show is conducted on all days excepting Sundays and public holidays from 7:00 pm to 7:40 pm. The palace remains i
+							lluminated from 7.00 pm to 7.45 pm on Sundays, state festivals and national holidays and on other days from 7.40 pm to 7.45 pm following the sound and light show.  </tab1></br></br>
+							Entry Fee for the show: </br>Children (7 - 12 years of age): Rs.25 <br> 
+                                Indian citizens: Rs.40/-<br> 
+                                Foriegn citizens: Rs.200/-<br>
+								General entry fee:</br>
+								Children: Rs.30 <br> 
+                                Indian citizens: Rs.50/-<br> 
+                                Foriegn citizens: Rs.50/-<br>
+                            </p>
+                          </div>
+                      </div>
+                </div>
+                </div>
+        </div>
+
+        <!--Chamundi temple -->
+        <div class="imageBlockPlace">
+                <div class="imageVerticalPlace1"><img class="PlaceImage" src="images/Chamundi1.jpg"/></div>
+                <div class="imageVerticalPlace2"><img class="PlaceImage" src="images/Chamundi2.jpg" /></div>
+                <div class="imageDataPlace">	<div class="SubTitleName"> Chamundi Temple (Mysore) </div>
+                <div class="TreeMenuPlace">
+                    <!--Tree view for why visit-->
+                    <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Why visit this?</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace"><tab1>Seen from all the corners of Mysore, Chamundi Hills stand majestically with a height of about 3,489 feet above the sea level. These hills are 
+							located at a distance of about 13 km from Mysore. These hills stand about 800 feet above the Mysore city. Located at the top of Chamundi Hills. </tab1></p>
+                          </div>
+                      </div>
+        
+                      <!--Tree view for what attracts-->
+                      <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png" alt="Expand">What attracts the most??</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">
+                                    <tab1>Chamundeshwari temple is one of most prominent temples in Mysore. Dedicated to the Goddess Chamundeshwari (Chamundi), deity of the Mysore Royal Family and Mysore as well, 
+									this temple is about 1000 steps from the foot of the hill. The goddess is seated on a lion, killing the demon with her ‘trishul’. With its impressive architecture, great historical 
+									significance and surrounded with nature’s serenity at the Chamundi hills, this temple is still known as a prominent temples in India, attracting not only devotees but tourists from 
+									everywhere who come to witness its unshakable grandeur.</tab1>
+                            </p>
+                  
+                          </div>
+                      </div>
+        
+                      <!-- Tree view for entry fee -->
+                <div class="ListDivPlace">
+                        <span class="ListItemsPlace">
+                          <img class="MaxMinIconChild" src="images/expand.png"  alt="Expand">Entry Fee and Time spent</span>
+                          <div class="ChildElementsPlace" style="display:none">
+                            <p class="listElementPlace">The darshan and puja timings at Chamundeshwari Temple are 07.30am to 02.00pm; 03.30pm to 6.00pm and 07.30pm to 9pm.</br>
+							For those who are interested in attending the pooja, visiting during these hours is ideal.>/br>
+							The abhishekam timings are 6am to 7.30am and 6pm to 7.30pm. </br>
+							On Friday it is from 5am to 6.30am. </br>
+							Every day, free meals are also organized for devotees from 12.30pm to 2.30pm.
+                            </p>
+                          </div>
+                      </div>
+                </div>
+                </div>
+        </div>
+        </div>
+
+<!--Local Transport of Bangalore -->
+<div id="TransportDashboard" style="display:none">
+        <div class="Info-title">Transporation Modes in Bengaluru</div>
+
+        <div class="imageBlock1">
+        <div class="imageVertical"><img class="PlaceImage" src="images/metro.jpg" height=200 width=300/></div>
+        <div class="imageData">	<div class="SubTitleName"> Metro Trains </div>It is fast, efficient, fairly priced and environmentally friendly.Currently there are 2 lines 
+        around the city covering many stations. A route information is available at <a class="link" href="http://english.bmrc.co.in/ProjectProfile" target = "_blank"><strong>Metro Stops/Stations.</strong></a>.
+        A fare calculator is available at <a class="link" href="https://www.mapsofindia.com/bangalore/bangalore-metro-fare-calculator.html" target = "_blank"><strong>Metro Fares.</strong></a>.
+        </div>
+        </div>
+        
+        <div class="imageBlock1">
+        <div class="imageVertical"><img class="PlaceImage" src="images/BangaloreBus.jpg" height=200 width=300/></div>
+        <div class="imageData">	<div class="SubTitleName">  Buses </div> The buses are usually overcrowded with little sitting room,
+        and very hot if not air conditioned.  They are however cheap and service many routes.The bus routes with bus numbers can be found at <a class="link" href="https://narasimhadatta.info/bmtc_query.html" target = "_blank"> <strong>Bus Route.</strong></a>
+        </div>
+        </div>
+        
+        <div class="imageBlock1">
+        <div class="imageVertical"><img class="PlaceImage" src="images/Ola.jpg" height=200 width=300/></div>
+        <div class="imageData">	<div class="SubTitleName"> Taxi/Cab </div> The most comfortable way to get around Bangalore is by taxi,
+         however this is the most expensive option as well. 
+        Look for Ola Cabs at <a class="link" href="https://www.makemytrip.com/car-rental/ola_cabs-bangalore-booking.php" target = "_blank"><strong>Taxi/Cabs.</strong></a>
+		Look for Uber Cabs at <a class="link" href="https://www.taxifarefinder.com/main.php?city=Uber-X-Bangalore-India&lang=en" target = "_blank"><strong>Taxi/Cabs.</strong></a>
+        </div>
+        </div>
+        
+        <div class="imageBlock1">
+        <div class="imageVertical"><img class="PlaceImage" src="images/auto.jpg" height=200 width=300/></div>
+        <div class="imageData">	<div class="SubTitleName"> Auto Rikshaws </div> Auto is another form of transportation which are cheap 
+        and convenient to travel in. Around 3-4 people can sit in one auto with a driver.Autos can be found anywhere. Minimum auto fare starts at Rs.25/- </div>
+        </div>
+         
+        
+        
+        
+
+</div>
+
+<!-- Bangalore Climate div -->
+<div id="ClimateDashboard" style="display:none">
+<div class="Info-title">Climate in New Delhi</div>
+<div class = "row1">
+<div class="FlightInfo">The city of Bangalore counts amongst the few cities in India that experience an agreeable weather throughout the year. 
+		  Still, the best time to visit the garden city of India is between <b>October and February</b>.</div>
+        <div class = "summer"><div class="imageSun"><img src="images/sunny.png"/></div>SUMMER - April to June (Temperature between 25 to 35 deg C) </div>
+          <div class = "summer">
+              <div class="imageSun"><img src="images/winter.png"/></div>  
+              <div class="imageInfo"> WINTER - December to February (minimum is 10 deg C) </div>
+            </div>
+          <div class = "summer"><div class="imageSun"><img src="images/monsoon.png" style="width:242px; height:252px;"/></div>
+          <div class="imageInfo">Monsoon - June to August </div>
+          </div>
+		  
+       </div>  
+</div>
+<div id="FlightDashboard" style="display:none">
+    <div class="Info-title">Book Your Flights</div>
+    <div class="FlightInfo">I have shared two links here which I found to be suitable enough and is relatively cheaper to book flights to Bengaluru</div>
+    <div class="imageBlockFlight">
+        <div class = "ReservationImage"><a href="https://www.cheapoair.com/flights/booknow/destinations/airport?airport-code=BLR&fpaffiliate=coa-google-destination&fpsub=&utm_campaign=Destination-Destinations_ATLAS&utm_term=flights%20to%20bengaluru&utm_term_id=kwd-298770793149&utm_source={google}&utm_medium={cpc}&device=c&fpprice=&campaignID=929693887&adgroupId=47167956420&gclid=CjwKCAjwzqPcBRAnEiwAzKRgS0BB8aYAhS6jMGvUjD9Eka8T1nTUVZ18STXMaw2_GOy-N8wLc9Z17RoCgGkQAvD_BwE" target="_blank">
+            <img class="imageFlight" src="images/bookflight.jpg" width=300px height=200px></a></div>
+            <div class = "ReservationImage"><a href="https://www.kayak.com/flight-routes/United-States-US0/Bengaluru-Intl-BLR" target="_blank">
+                <img src="images/bookflight2.jpg" width=300px height=200px></a></div>
+</div>
+</div>
+<div id="HotelDashboard" style="display:none">
+        <div class="Info-title">Book Your Flights</div>
+        <div class="FlightInfo">I have shared two links here which I found to be suitable enough and is relatively cheper to book your stay at Bengaluru</div>
+        <div class="imageBlockFlight">
+                <div class = "ReservationImage"><a href="https://www.hotels.com/de678196/hotels-bengaluru-india/?dateless=true&destinationid=678196&locale=en_US&pos=HCOM_US&rffrid=sem.hcom.US.google.003.00.02.s.kwrd=c.256927936682.36471039351.638298156.1t2.kwd-101860043.9011796..hotels%20bangalore.CjwKCAjwzqPcBRAnEiwAzKRgS3DXoArZU2zqr0seMGjOVf5WC_gFPuJVQlT7zueyeJv-93k19r7rQRoC1SgQAvD_BwE.aw.ds&PSRC=G21&gclid=CjwKCAjwzqPcBRAnEiwAzKRgS3DXoArZU2zqr0seMGjOVf5WC_gFPuJVQlT7zueyeJv-93k19r7rQRoC1SgQAvD_BwE&gclsrc=aw.ds" target="_blank">
+                    <img class="imageFlight" src="images/bookHotel.png" width=300px height=200px></a></div>
+                    <div class = "ReservationImage"><a href="https://www.booking.com/city/in/bangalore.html" target="_blank">
+                        <img src="images/bookHotel2.jpg" width=300px height=200px></a></div>  
+        
+            
+</div>
+</div>
+</div>
+</div>
+<script>
+  var allSpan = document.getElementsByTagName('SPAN');
+for(var i = 0; i < allSpan.length; i++){
+    allSpan[i].onclick=function(){
+        if(this.parentNode){
+            
+            //console.log(this.childNodes[0].nextSibling.nodeValue);
+            var childList = this.parentNode.getElementsByTagName('div');
+           
+            for(var j = 0; j< childList.length;j++){
+                var ChildId = childList[j].id;
+                var currentState = childList[j].style.display;
+                
+                if(currentState=="none")
+                    {
+                   
+                                childList[j].style.display="block";
+                                if( this.childNodes[1].src !="")
+                                {
+                                    this.childNodes[1].src='images/collapse.png';
+                                    this.childNodes[1].alt='Collapse';  
+                                } 
+                       
+                      }
+                else
+                    {
+                                childList[j].style.display="none";
+                                if( this.childNodes[1].src !="")
+                                {
+                                    this.childNodes[1].src='images/expand.png';
+                                    this.childNodes[1].alt='Expand';
+                                }
+                    }
+                }
+        }
+    }
+  }
+
+</script>
+</body>
+</html>
