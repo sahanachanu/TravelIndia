@@ -330,7 +330,6 @@ p:hover{
 #PlacesDashBoard
 {
 	height: 100%;
-	overflow-y: scroll;
 	color: white;
 }
 #TransportDashboard
