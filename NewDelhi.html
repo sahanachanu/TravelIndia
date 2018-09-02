@@ -9,12 +9,12 @@
 
 <link rel="stylesheet" type="text/css" href="style.css">
 <script type="text/javascript" src="cities.js"></script>
-<title> This is my first webpage </title>
+<title> Travel India </title>
 </head>
 
 <body>
 
-<!--<div class="CityTitleDiv">-->
+    <!--Div which hold the title of the page-->
 <div class="headerDelhi">NEW DELHI</div>
 <!--</div> -->
 <div class="NavBar">
@@ -24,9 +24,11 @@
         <li class="ListDelhi"><a href="interact.html">Coming Soon</a></li>
 </ul>
 </div>
-<!--<div class="flex-container">-->
+
 <div class="ContainerDelhi">
+    <!--The main contaier or page is divided into left and right cntainers-->
 <div class="LeftContainer">
+    <!--Div which holds the Left side menu in the page-->
   <div class="TreeMenu">
   <div class="ListDiv">
       <div class="ListItems">Initial Concerns</div>
@@ -47,6 +49,8 @@
   </ul>
   </div>
 </div>
+
+<!--Div which hols right side content of the page-->
 <div class="RightContainer">
 <div id="PlacesDashBoard">
         <div class="Info-title">Places- Must Visit</div>
@@ -409,8 +413,6 @@
 for(var i = 0; i < allSpan.length; i++){
     allSpan[i].onclick=function(){
         if(this.parentNode){
-            
-            //console.log(this.childNodes[0].nextSibling.nodeValue);
             var childList = this.parentNode.getElementsByTagName('div');
            
             for(var j = 0; j< childList.length;j++){
