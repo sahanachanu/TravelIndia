@@ -2732,10 +2732,12 @@ and (max-width : 1980px)
 		;
 	}
 	.mySlides{
-		width: 100%;
-		height: 742px;
-		margin:0px
+		width: 76%;
+    	height: 722px;
+    	margin-left: 222px;
+    	margin-top: -2px;
 	}
+
 	.ArrowKeys{
 		display: inline-block;
 		vertical-align: top;
